@@ -1,0 +1,9 @@
+JavaScript
+- Invented by Brendan Eich
+    - at 1995
+    - for Netscape browser
+- It became the formal ECMA262 specification
+    - ES262 1 (First version)
+    - ES262 ES5 (First Mayor revision/release)
+    - ES262 ES6 (Second Mayor versión/release)
+    - TC39 (Group of Companies/Developers that decide the next languaje features)

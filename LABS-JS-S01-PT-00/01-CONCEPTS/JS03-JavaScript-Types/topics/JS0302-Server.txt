@@ -1,0 +1,15 @@
+SERVER: Hardware or Software
+    - Provides a resourse (Hardware)
+    - Provides a service (Software)
+
+    - Hardware Server
+        - Computer
+
+    - Software Server
+        - Aplication Server (Apache, IIS, Tomcat)
+        - Mail/SMTP Server
+        - DB Server
+        - Proxy Server
+        - FTP Server
+
+

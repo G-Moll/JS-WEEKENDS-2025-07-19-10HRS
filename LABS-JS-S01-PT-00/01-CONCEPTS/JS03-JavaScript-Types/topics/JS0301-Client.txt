@@ -1,0 +1,15 @@
+CLIENT: Hardware or Software
+    - Consumes a resourse (Hardware)
+    - Consumes a service (Software)
+
+    - Hardware Client
+        - Computer
+        - Phone
+        - Tablet
+
+    - Software Client
+        - Web browser
+        - Command line
+        - Application
+
+

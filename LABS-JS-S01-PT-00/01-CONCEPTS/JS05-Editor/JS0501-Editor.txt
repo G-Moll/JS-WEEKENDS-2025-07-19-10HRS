@@ -1,0 +1,7 @@
+Text Editor
+    - Editor UI
+    - Extensions/Plugins
+    - Create Web Project
+    - Create Files for Project
+    - Run Project
+

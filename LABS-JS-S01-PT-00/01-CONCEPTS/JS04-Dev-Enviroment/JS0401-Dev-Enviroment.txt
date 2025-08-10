@@ -1,0 +1,17 @@
+Development Enviroment
+- Text Editor
+    - Visual Studio Code
+        - Atom (Github)
+    - Sublime Text
+    - Brackets
+    - Notepad++
+    - Notepad
+- Web Broswer
+    - Chrome
+    - Firefox
+    - Opera
+    - Brave
+    - Edge
+    - Safari
+- Developer Tools
+    - Console

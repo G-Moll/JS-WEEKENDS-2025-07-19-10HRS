@@ -1,0 +1,11 @@
+"JAVASCRIPT TYPES"
+- Client: Web Browser
+- Server: NodeJS
+- Mobile: Cordova(* Capacitor new alternative) (Phonegap), Ionic, React Native
+    - Hybrid Mobile Development: JavaScript access to Device's Sensors
+        - WebView (Android, iOS, Windows Mobile, BlackBerry, etc)
+            - Camera, Geolocation, Mic, Sensors, etc...
+        - Web Page (HTML, CSS, JS)
+- Databases: MongoDB, CouchDB
+    - Query Language: JavaScript
+    - Query Results: BJSON

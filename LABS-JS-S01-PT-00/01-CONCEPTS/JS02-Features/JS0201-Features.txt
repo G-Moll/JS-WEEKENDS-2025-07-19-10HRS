@@ -1,0 +1,13 @@
+Old Description
+- Event based (DOM)
+
+Main Features
+- Dynamically typed
+- Weakly typed
+    var x = 10;
+    x = '1';
+
+Programming Paradigms
+- OOP:                          JS, C#, Java
+- Funtional:                    JS, F#, Java 8
+- Reactive (Observer/PubSub):   JS, Java, C#
