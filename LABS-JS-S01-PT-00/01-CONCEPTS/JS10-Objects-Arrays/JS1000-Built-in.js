@@ -1,0 +1,10 @@
+console.log( Object );
+console.log( Array );
+console.log( String );
+console.log( Number );
+console.log( Boolean );
+console.log( Function );
+console.log( Date );
+console.log( RegExp );
+console.log( Error );
+console.log( Math );
