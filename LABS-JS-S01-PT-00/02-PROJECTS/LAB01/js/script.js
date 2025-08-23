@@ -9,14 +9,21 @@ function changeHandler( e ) {
     var file = files[ 0 ];
     var fileReader = new FileReader();
 
-    fileReader.addEventListener( "loadend", function() {
-        console.log( "Archivo leido" );
+    fileReader.addEventListener( "loadend", function( e ) {
+        console.log( e.type );
+        console.log( e );
+        
+        handleFileRead( e, file );
     });
 
     if( file.type.indexOf( "text/" ) >= 0 ) {
         fileReader.readAsText( file );
     }
     else {
-        console.log( "No es un archivo de texto" );
+        fileReader.readAsDataURL( file );
     }
+}
+
+function handleFileRead( e, file ) {
+    // ...
 }

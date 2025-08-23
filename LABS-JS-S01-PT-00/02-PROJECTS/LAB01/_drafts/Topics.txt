@@ -7,10 +7,9 @@ Events
     - EventHandler
 DOM
     - HTMLElement
-    - Shadow DOM
 Objects
-    Object
-    Array
+    - Object
+    - Array
 Functions
     - Callbacks
 Variables
@@ -20,4 +19,6 @@ Control Structures
     - for
 
 
+// Más adelante
 Event Delegation
+Shadow DOM
