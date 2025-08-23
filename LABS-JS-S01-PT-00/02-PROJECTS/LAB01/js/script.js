@@ -1,16 +1,22 @@
+// ES5
 var fileInput = document.getElementById( "fileInput" );
 var preview = document.getElementById( "preview" );
 
-// preview.onclick = function() {
-//     console.log( "Hemos dado click en el preview" );
-// }
+fileInput.addEventListener( "change", changeHandler );
 
-preview.addEventListener( "click", clickHandler );
+function changeHandler( e ) {
+    var files = e.target.files;
+    var file = files[ 0 ];
+    var fileReader = new FileReader();
 
-function clickHandler() {
-    console.log( "Hemos dado click en el preview..." );    
+    fileReader.addEventListener( "loadend", function() {
+        console.log( "Archivo leido" );
+    });
+
+    if( file.type.indexOf( "text/" ) >= 0 ) {
+        fileReader.readAsText( file );
+    }
+    else {
+        console.log( "No es un archivo de texto" );
+    }
 }
-
-
-console.log( fileInput );
-console.log( preview );

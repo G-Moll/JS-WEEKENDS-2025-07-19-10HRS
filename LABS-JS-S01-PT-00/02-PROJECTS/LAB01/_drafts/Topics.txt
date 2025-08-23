@@ -1,0 +1,23 @@
+------------------------------------------------
+ES5
+------------------------------------------------
+Events
+    - Event
+    - EventListener
+    - EventHandler
+DOM
+    - HTMLElement
+    - Shadow DOM
+Objects
+    Object
+    Array
+Functions
+    - Callbacks
+Variables
+    - var
+Control Structures
+    - if
+    - for
+
+
+Event Delegation
