@@ -1,4 +1,17 @@
 // ES5
+
+var officeFileTypes = [
+        // .doc .xls .ppt
+        "application/msword",
+        "application/vnd.ms-excel",
+        "application/vnd.ms-powerpoint",
+
+        // .docx .xlsx .pptx
+        "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+        "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+];
+
 var fileInput = document.getElementById( "fileInput" );
 var preview = document.getElementById( "preview" );
 
@@ -10,9 +23,6 @@ function changeHandler( e ) {
     var fileReader = new FileReader();
 
     fileReader.addEventListener( "loadend", function( e ) {
-        console.log( e.type );
-        console.log( e );
-        
         handleFileRead( e, file );
     });
 
@@ -25,5 +35,27 @@ function changeHandler( e ) {
 }
 
 function handleFileRead( e, file ) {
-    // ...
+    if( file.type.indexOf( "image/" ) >= 0 ) {
+        preview.innerHTML += "<img src=" + e.target.result + ">";
+    }
+    else if( file.type.indexOf( "audio/" ) >= 0 ) {
+        preview.innerHTML += "<audio controls src=" + e.target.result + "></audio>";        
+    }
+    else if( file.type.indexOf( "video/" ) >= 0 ) {
+        preview.innerHTML += "<video controls src=" + e.target.result + "></video>";        
+    }
+    else if( file.type == "application/pdf" ) {
+        preview.innerHTML += "<iframe src=" + e.target.result + "></iframe>";        
+    }
+    else if(
+        file.type === officeFileTypes[ 0 ] ||
+        file.type === officeFileTypes[ 1 ] ||
+        file.type === officeFileTypes[ 2 ]
+        ) {
+        console.log( "Archivo de ofis.." );
+    }
+    else if( file.type.indexOf( "text/" ) >= 0  ) {
+        preview.innerHTML += "<pre><code>" + e.target.result + "</code></pre>";
+    }
+    console.log( file.type );
 }
