@@ -1,0 +1,18 @@
+08 ¿Cuál es la diferencia entre un editor de código y un IDE?
+    - a. Un IDE es más complejo (*)
+    - b. Un editor de código es solo para HTML
+    - c. Un IDE es solo para JavaScript
+    - d. Un editor de código es más ligero
+
+                    IDE         TextEditor
+Ligero              No          Sí
+Auto-completado     Sí          Posiblemente
+Auto-coloreado      Sí          Posiblemente
+Compilador          Sí          No
+Depurador           Sí          No
+Especializado *     Sí          No
+Dependencias *      Sí          No
+Configuración       Compleja    Básica
+
+
+

@@ -1,0 +1,68 @@
+01 ¿Qué característica de JavaScript permite cambiar su comportamiento en tiempo de ejecución?
+    - a. Estático
+    - b. Compilado
+    - c. Dinámico (*)
+    - d. Interpretado
+
+
+02 ¿Cuál es una ventaja de JavaScript para desarrollar aplicaciones web?
+    - a. Velocidad
+    - b. Interactividad
+    - c. Todas las anteriores (*)
+    - d. Seguridad
+
+
+03  ¿Qué framework de JavaScript es conocido por su uso en aplicaciones móviles?
+    - a. React
+    - b. Ionic (*)
+    - c. Vue.js
+    - d. Angular
+
+
+04 ¿Qué característica de JavaScript permite crear objetos y clases?
+    - a. Imperativo
+    - b. Funcional
+    - c. Declarativo
+    - d. Orientado a objetos (*)
+
+
+05 ¿Qué ventaja tiene JavaScript en comparación con otros lenguajes de programación?
+    - a. Flexibilidad (*)
+    - b. Costo
+    - c. Rapidez
+    - d. Seguridad
+
+
+06 ¿Qué librería de JavaScript es conocida por su uso en análisis de datos?
+    - a. Lodash
+    - b. Moment.js
+    - c. D3.js (*)
+    - d. jQuery
+
+
+07 ¿Qué característica de JavaScript permite ejecutar varias tareas simultáneamente?
+    - a. Monohilo
+    - b. Asíncrono
+    - c. Síncrono
+    - d. Multihilo (*)
+
+
+08  ¿Qué framework de JavaScript es conocido por su uso en aplicaciones de servidor?
+    - a. React
+    - b. Node.js (*)
+    - c. Angular
+    - d. Vue.js
+
+
+09 ¿Qué ventaja tiene JavaScript en comparación con otros lenguajes de programación para desarrollar aplicaciones web?
+    - a. Interactividad
+    - b. Seguridad
+    - c. Accesibilidad (*)
+    - d. Velocidad
+
+ 
+10 ¿Qué característica de JavaScript permite interactuar con documentos HTML y hojas de estilos CSS?
+    - a. DOM (*)
+    - b. JSON
+    - c. AJAX
+    - d. BOM

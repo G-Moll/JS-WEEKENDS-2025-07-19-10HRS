@@ -1,0 +1,11 @@
+07 ¿Qué característica de JavaScript permite ejecutar varias tareas simultáneamente?
+    - a. Monohilo
+    - b. Asíncrono
+    - c. Síncrono
+    - d. Multihilo (*)
+
+- Por naturaleza JavaScript es Unihilo.
+- JavaScript tiene un hilo principal de ejecución
+- JavaScript puede generar hilos secundarios usando WebWorkers ES6
+
+

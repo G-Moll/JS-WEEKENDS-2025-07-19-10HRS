@@ -1,0 +1,10 @@
+07 ¿Qué framework de JavaScript se creó en 2006 para desarrollar aplicaciones web?
+    - a. Vue.js
+    - b. jQuery (*)
+    - c. React
+    - d. Angular
+
+Angular: Framework
+jQuery:  Librería
+React:   Librería
+Vue.js:  Librería progresiva

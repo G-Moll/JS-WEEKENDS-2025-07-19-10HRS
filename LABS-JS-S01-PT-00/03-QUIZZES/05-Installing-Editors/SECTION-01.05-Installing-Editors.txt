@@ -1,0 +1,68 @@
+01 ¿Qué es Visual Studio Code (VS Code)?
+    - a. Un framework de JavaScript
+    - b. Un navegador web
+    - c. Un gestor de paquetes.
+    - d. Un editor de código (*)
+
+
+02 ¿Cómo se instala VS Code?
+    - a. Ejecutando un comando en la terminal
+    - b. Instalando desde la tienda de aplicaciones
+    - c. Descargando desde el sitio web oficial (*)
+    - d. Todas las anteriores
+
+
+03 ¿Qué es Sublime Text?
+    - a. Un editor de código (*)
+    - b. Un navegador web
+    - c. Un framework de JavaScript
+    - d. Un gestor de paquetes
+
+
+04 ¿Qué es Atom?
+    - a. Un editor de código (*)
+    - b. Un gestor de paquetes
+    - c. Un framework de JavaScript
+    - d. Un navegador web
+
+
+05 ¿Qué es el paquete "JavaScript Completions" en Sublime Text?
+    - a. Un autocompletado de código (*)
+    - b. Un resaltado de sintaxis
+    - c. Un depurador
+    - d. Un gestor de paquetes
+
+
+06 ¿Cómo se instala Atom?
+    - a. Todas las anteriores
+    - b. Descargando desde el sitio web oficial (*)
+    - c. Instalando desde la tienda de aplicaciones
+    - d. Ejecutando un comando en la terminal
+
+
+07 ¿Qué es la extensión "ESLint" en VS Code?
+    - a. Un autocompletado de código
+    - b. Un resaltado de sintaxis
+    - c. Un verificador de calidad de código (*)
+    - d. Un depurador
+
+
+08 ¿Qué es la extensión "Prettier" en VS Code?
+    - a. Un autocompletado de código
+    - b. Un resaltado de sintaxis
+    - c. Un formateador de código (*)
+    - d. Un depurador
+
+
+09 ¿Qué es el archivo "settings.json" en VS Code?
+    - a. Un archivo de código
+    - b. Un archivo de paquetes
+    - c. Un archivo de configuración (*)
+    - d. Un archivo de depuración
+
+
+10 ¿Qué es el menú "Extensiones" en VS Code?
+    - a. Un menú de depuración
+    - b. Un menú de configuración
+    - c. Un menú para instalar extensiones (*)
+    - d. Un menú de código

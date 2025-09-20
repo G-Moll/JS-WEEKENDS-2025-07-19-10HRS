@@ -1,0 +1,7 @@
+01 ¿Dónde se ejecuta el JavaScript Cliente?
+    - a. Dispositivo móvil
+    - b. Navegador del cliente (*)
+    - c. Escritorio
+    - d. Servidor
+
+- Mongo Atlas es un Cliente, que trabaja con JavaScript para hacer consultas, pero no es un Navegador Web

@@ -1,0 +1,12 @@
+09 ¿Cuál es el resultado de la operación 5 > 3 && 3 > 2?
+    - a. true (*)
+    - b. false
+    - c. undefined
+    - d. null
+
+
+10 ¿Cuál es el resultado de la operación 5 == 5?
+    - a. null
+    - b. true (*)
+    - c. false
+    - d. undefined

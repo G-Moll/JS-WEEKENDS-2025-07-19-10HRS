@@ -1,0 +1,68 @@
+01 ¿Cuál es el propósito de la estructura if/else en JavaScript?
+    - a. Salir de un bucle
+    - b. Devolver un valor de una función
+    - c. Ejecutar un bloque de código si se cumple una condición (*)
+    - d. Iterar sobre un conjunto de elementos
+
+
+02 ¿Cuál es la diferencia entre if y switch?
+    - a.  If se utiliza para condiciones múltiples, mientras que switch se utiliza para condiciones simples
+    - b. If se utiliza para iterar sobre un conjunto de elementos, mientras que switch se utiliza para salir de un bucle
+    - c.  If se utiliza para condiciones simples, mientras que switch se utiliza para condiciones múltiples (*)
+    - d.  If se utiliza para devolver un valor de una función, mientras que switch se utiliza para ejecutar un bloque de código
+
+
+03 ¿Cuál es el propósito del bucle for en JavaScript?
+    - a. Salir de un bucle
+    - b. Ejecutar un bloque de código si se cumple una condición
+    - c. Devolver un valor de una función
+    - d. Iterar sobre un conjunto de elementos (*)
+
+
+04 ¿Cuál es el propósito del bucle while en JavaScript?
+    - a. Mientras se cumple una condición, ejecutar un bloque de código (*)
+    - b. Iterar sobre un conjunto de elementos
+    - c. Salir de un bucle
+    - d. Ejecutar un bloque de código si se cumple una condición
+
+
+05 ¿Cuál es el propósito del bucle do-while en JavaScript?
+    - a. Iterar sobre un conjunto de elementos
+    - b. Ejecutar un bloque de código si se cumple una condición
+    - c. Mientras se cumple una condición, ejecutar un bloque de código al menos una vez (*)
+    - d. Salir de un bucle
+
+
+06 ¿Qué palabra clave se utiliza para salir de un bucle?
+    - a. Break (*)
+    - b. Continue
+    - c. Return
+    - d. If
+
+
+07 ¿Qué palabra clave se utiliza para saltar a la siguiente iteración en un bucle?
+    - a. Return
+    - b. Continue (*)
+    - c. Break
+    - d. If
+
+
+08  ¿Qué palabra clave se utiliza para devolver un valor de una función?
+    - a. If
+    - b. Continue
+    - c. Return (*)
+    - d. Break
+
+
+09 ¿Cuál es el propósito de la condición en un bucle while?
+    - a. Determinar el valor de retorno de la función
+    - b. Determinar si se debe salir del bucle
+    - c. Determinar si se debe ejecutar el bloque de código (*)
+    - d. Determinar el número de iteraciones
+
+
+10 ¿Qué sucede si no se cumple la condición en un bucle while?
+    - a. El bloque de código se ejecuta repetidamente
+    - b. El bloque de código no se ejecuta (*)
+    - c. El bloque de código se ejecuta una vez
+    - d. Se produce un error

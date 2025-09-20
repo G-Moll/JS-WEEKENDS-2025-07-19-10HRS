@@ -1,0 +1,26 @@
+06 ¿Cuál es el resultado de la operación true && false?
+    - a. false (*)
+    - b. null
+    - c. true
+    - d. undefined
+
+
+07 ¿Cuál es el resultado de la operación true || false?
+    - a. undefined
+    - b. true (*)
+    - c. null
+    - d. false
+
+
+08 ¿Cuál es el resultado de la operación !true?
+    - a. undefined
+    - b. false (*)
+    - c. true
+    - d. null
+
+
+09 ¿Cuál es el resultado de la operación 5 > 3 && 3 > 2?
+    - a. true (*)
+    - b. false
+    - c. undefined
+    - d. null

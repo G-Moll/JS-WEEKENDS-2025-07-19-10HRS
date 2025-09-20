@@ -1,0 +1,7 @@
+05 ¿Qué es el paquete "JavaScript Completions" en Sublime Text?
+    - a. Un autocompletado de código (*)
+    - b. Un resaltado de sintaxis
+    - c. Un depurador
+    - d. Un gestor de paquetes
+
+¿Cuál es la utilidad del paquete "JavaScript Completions" de Sublime Text?

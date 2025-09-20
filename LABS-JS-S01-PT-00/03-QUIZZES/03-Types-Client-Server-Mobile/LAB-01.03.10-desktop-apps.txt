@@ -1,0 +1,10 @@
+10 ¿Qué framework es utilizado para crear aplicaciones de escritorio con JavaScript?
+    - a. Vue.js
+    - b. React
+    - c. Electron (*)
+    - d. Angular
+
+Electron utiliza
+    - Wrapper que contiene una Web App
+    - Web App corre sobre Node.js
+    - Web App está creada usando HTML, CSS y JS

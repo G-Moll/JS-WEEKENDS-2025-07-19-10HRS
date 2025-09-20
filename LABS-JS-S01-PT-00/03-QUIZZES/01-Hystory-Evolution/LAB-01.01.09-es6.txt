@@ -1,0 +1,15 @@
+09 ¿Qué versión de ECMAScript se publicó en 2015 con características significativas?
+    - a. ECMAScript 6 (*)
+    - b. ECMAScript 5
+    - c. ECMAScript 7
+    - d. ECMAScript 8
+
+Features:
+    - let, const
+    - class
+    - maps, sets
+    - arrow functions
+    - fetch
+    - promises
+    - async/await
+    - template strings ``

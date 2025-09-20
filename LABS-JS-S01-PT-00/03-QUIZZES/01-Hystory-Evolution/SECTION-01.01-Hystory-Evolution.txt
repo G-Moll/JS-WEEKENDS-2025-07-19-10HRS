@@ -1,0 +1,68 @@
+01 ¿Quién creó el lenguaje de programación JavaScript?
+    - a. Brendan Eich (*)
+    - b. Bill Gates
+    - c. Tim Berners-Lee
+    - d. Steve Jobs
+
+
+02 ¿En qué año se creó JavaScript?
+    - a. 1990
+    - b. 1995 (*)
+    - c. 2000
+    - d. 2010
+
+
+03 ¿Cuál fue el nombre original de JavaScript?
+    - a. JavaScript
+    - b. Mocha (*)
+    - c. ECMAScript
+    - d. LiveScript
+
+
+04 ¿Qué empresa estandarizó JavaScript como ECMAScript?
+    - a. European Computer Manufacturers Association (ECMA) (*)
+    - b. Microsoft
+    - c. Netscape
+    - d. Sun Microsystems
+
+
+05 ¿Qué versión de ECMAScript se publicó en 1997?
+    - a. ECMAScript 1 (*)
+    - b. ECMAScript 2
+    - c. ECMAScript 3
+    - d. ECMAScript 4
+
+
+06  ¿Qué técnica se popularizó en 2005 para cargar contenido dinámicamente en páginas web?
+    - a. HTML5
+    - b. JSON
+    - c. AJAX (*)
+    - d. XML
+
+
+07 ¿Qué framework de JavaScript se creó en 2006 para desarrollar aplicaciones web?
+    - a. Vue.js
+    - b. jQuery (*)
+    - c. React
+    - d. Angular
+
+
+08 ¿Qué entorno de ejecución de JavaScript se creó en 2009 para desarrollar aplicaciones en el servidor?
+    - a. Node.js (*)
+    - b. Ruby on Rails
+    - c. Flask
+    - d. Django
+
+
+09 ¿Qué versión de ECMAScript se publicó en 2015 con características significativas?
+    - a. ECMAScript 6 (*)
+    - b. ECMAScript 5
+    - c. ECMAScript 7
+    - d. ECMAScript 8
+ 
+ 
+10 ¿Qué característica de ECMAScript 6 permite crear clases en JavaScript?
+    - a. Módulos
+    - b. Funciones flecha
+    - c. Promesas
+    - d. Clases (*)

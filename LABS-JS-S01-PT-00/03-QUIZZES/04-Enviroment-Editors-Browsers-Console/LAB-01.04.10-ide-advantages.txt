@@ -1,0 +1,5 @@
+10 ¿Cuál es el beneficio principal de utilizar un entorno de desarrollo en JavaScript?
+    - a. Menor tiempo de depuración
+    - b. Mejora en la calidad del código
+    - c. Todas las anteriores (*)
+    - d. Mayor productividad

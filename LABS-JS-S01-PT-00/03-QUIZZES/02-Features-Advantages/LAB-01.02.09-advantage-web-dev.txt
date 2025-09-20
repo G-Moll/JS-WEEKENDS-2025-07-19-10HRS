@@ -1,0 +1,13 @@
+09 ¿Qué ventaja tiene JavaScript en comparación con otros lenguajes de programación para desarrollar aplicaciones web?
+    - a. Interactividad
+    - b. Seguridad
+    - c. Accesibilidad (*)
+    - d. Velocidad
+
+<p alt="lorem ipsum">lorem ipsum</p>
+
+
+a. Interactividad: En conjunto con el DOM
+b. Seguridad: ...
+c. Accesibilidad (*): ...
+d. Velocidad: Depende del Motor JS que se esté usando

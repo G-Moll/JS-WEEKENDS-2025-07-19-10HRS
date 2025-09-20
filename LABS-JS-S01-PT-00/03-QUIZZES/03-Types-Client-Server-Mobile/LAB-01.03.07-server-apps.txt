@@ -1,0 +1,12 @@
+07 ¿Qué tipo de JavaScript se utiliza para crear aplicaciones de servidor?
+    - a. JavaScript de Escritorio
+    - b. JavaScript Móvil
+    - c. JavaScript Cliente
+    - d. JavaScript Servidor (*)
+
+- No hay versiones JavaScript para Cliente, Servidor, Mobile o Desktop.
+- Hay entornos donde corre una VMJS y por ende, allí se ejecutan aplicaciones JavaScript.
+
+- Node.js es un Runtime/Framework utilizado para crear servidores y aplicaciones de servidor
+    - Node.js tiene un Motor JavaScript V8 (Que contiene una VMJS), el mismo de Google Chrome
+    - Node.js (JavaScript)/Python/Java/PHP/Go/C#, etc., son lenguajes/tecnologías del lado del servidor

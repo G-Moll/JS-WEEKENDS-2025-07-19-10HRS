@@ -1,0 +1,12 @@
+02 ¿Cuál es una ventaja de JavaScript para desarrollar aplicaciones web?
+    - a. Velocidad
+    - b. Interactividad
+    - c. Todas las anteriores (*)
+    - d. Seguridad
+
+a. Velocidad: Depende del Motor JS
+b. Interactividad: Principalmente depende de la interacción con el DOM
+c. Todas las anteriores (*): ...
+d. Seguridad: Cross-Site Scripting (XSS), Cross-Site Request Forgery (CSRF), SQL Injection
+
+

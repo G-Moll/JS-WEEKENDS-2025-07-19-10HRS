@@ -1,0 +1,5 @@
+03 ¿Qué es la consola en JavaScript?
+    - a. Un depurador
+    - b. Una herramienta para ejecutar comandos (*)
+    - c. Un framework
+    - d. Un editor de código

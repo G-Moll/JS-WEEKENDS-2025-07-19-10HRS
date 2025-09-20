@@ -1,0 +1,12 @@
+06 ¿Cuál es el propósito de un gestor de paquetes en JavaScript?
+    - a. Gestionar dependencias (*)
+    - b. Depurar código
+    - c. Ejecutar código
+    - d. Diseñar interfaces
+
+- JavaScript: NPM, Yarn, Bower
+- C#: Nugget
+- Python: PIP
+- PHP: Composer
+- Swift: SPM
+- Java: Maven, Gradle

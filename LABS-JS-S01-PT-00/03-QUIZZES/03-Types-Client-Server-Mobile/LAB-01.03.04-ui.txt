@@ -1,0 +1,12 @@
+04 ¿Qué tipo de JavaScript se utiliza para crear interfaces de usuario interactivas?
+    - a. JavaScript Móvil
+    - b. JavaScript de Escritorio
+    - c. JavaScript Cliente (*)
+    - d. JavaScript Servidor
+
+- No hay versiones JavaScript para Cliente, Servidor, Mobile o Desktop.
+- Hay entornos donde corre una VMJS y por ende, allí se ejecutan aplicaciones JavaScript.
+
+- Una UI usualmente está disponible en un cliente web
+- Una UI usualmente depende de la manipulación del DOM
+

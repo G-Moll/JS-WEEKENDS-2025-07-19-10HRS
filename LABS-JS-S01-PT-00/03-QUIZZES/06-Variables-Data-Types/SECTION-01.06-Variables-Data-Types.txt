@@ -1,0 +1,67 @@
+01 ¿Cuál es la diferencia entre var, let y const en JavaScript?
+    - a. var es para variables globales, let es para variables locales y const es para constantes. (*)
+    - b. var es para constantes, let es para variables locales y const es para variables globales.
+    - c. var es para variables locales, let es para variables globales y const es para constantes.
+    - d. Todas las anteriores son incorrectas.
+
+
+02 ¿Qué tipo de dato es el siguiente let num = 5;?
+    - a. Booleano
+    - b. Cadena
+    - c. Número (*)
+    - d. Array
+
+
+03 ¿Qué tipo de dato es el siguiente let texto = 'Hola';?
+    - a. Cadena (*)
+    - b. Número
+    - c. Array
+    - d. Booleano
+
+
+04 ¿Qué tipo de dato es el siguiente let esVerdadero = true;?
+    - a. Array
+    - b. Booleano (*)
+    - c. Número
+    - d. Cadena
+
+
+05 ¿Qué tipo de dato es el siguiente let frutas = ['manzana', 'plátano'];?
+    - a. Booleano
+    - b. Array (*)
+    - c. Número
+    - d. Cadena
+
+
+06 ¿Qué tipo de dato es el siguiente let persona = { nombre 'Juan', edad 25 };?
+    - a. Objeto (*)
+    - b. Booleano
+    - c. Número
+    - d. Cadena
+
+
+07 ¿Cuál es el alcance de una variable declarada con let?
+    - a. Ninguno de los anteriores
+    - b. Global
+    - c. Local y bloque (*)
+    - d. Local
+
+
+08 ¿Cuál es el alcance de una variable declarada con var?
+    - a. Local
+    - b. Local y bloque
+    - c. Global (*)
+    - d. Ninguno de los anteriores
+
+
+09 ¿Cuál es el propósito de la palabra clave const en JavaScript?
+    - a. Declarar variables globales
+    - b. Declarar constantes (*)
+    - c. Declarar variables locales
+    - d.  Ninguno de los anteriores
+
+10 ¿Qué tipo de dato es el siguiente let sinValor = null;?
+    - a. Cadena
+    - b. Booleano
+    - c. Número
+    - d. Null (*)

@@ -1,0 +1,68 @@
+01 ¿Cómo se declara una función en JavaScript?
+    - a. Utilizando la palabra clave "method"
+    - b. Utilizando la palabra clave "procedure"
+    - c. Utilizando la palabra clave "class"
+    - d. Utilizando la palabra clave "function" (*)
+
+
+02 ¿Qué es un parámetro en una función?
+    - a. Un tipo de dato en la función
+    - b. Un valor que se devuelve desde la función (*)
+    - c. Un nombre de variable dentro de la función
+    - d. Un valor que se pasa a la función
+
+
+03 ¿Qué es el retorno de una función?
+    - a. Un valor que se devuelve desde la función (*)
+    - b. Un tipo de dato en la función
+    - c. Un nombre de variable dentro de la función
+    - d. Un valor que se pasa a la función
+
+
+04 ¿Cómo se define un método en un objeto?
+    - a. Utilizando la palabra clave "procedure"
+    - b. Utilizando la palabra clave "class"
+    - c. Utilizando la palabra clave "function" (*)
+    - d. Utilizando la palabra clave "method
+
+
+05 ¿Qué es una función flecha en JavaScript?
+    - a. Una función que se define utilizando la palabra clave "method"
+    - b. Una función que se define utilizando la palabra clave "class"
+    - c. Una función que se define utilizando la palabra clave "function"
+    - d. Una función que se define utilizando la sintaxis de función flecha (*)
+
+
+06 ¿Qué ventaja tiene la reutilización de código en funciones?
+    - a. Permite la creación de módulos y bibliotecas
+    - b. Reduce el tiempo de desarrollo
+    - c. Facilita la lectura y comprensión del código
+    - d. Todas las anteriores (*)
+
+
+07 ¿Qué es una función declarada en JavaScript?
+    - a. Una función que se define utilizando la palabra clave "function" (*)
+    - b. Una función que se define utilizando la sintaxis de función flecha
+    - c. Una función que se define utilizando la palabra clave "class"
+    - d. Una función que se define utilizando la palabra clave "method"
+
+
+08 ¿Qué es una función expresada en JavaScript?
+    - a. Una función que se define utilizando una expresión (*)
+    - b. Una función que se define utilizando la palabra clave "function"
+    - c. Una función que se define utilizando la palabra clave "class"
+    - d. Una función que se define utilizando la sintaxis de función flecha
+
+
+09 ¿Cuál es el alcance de una variable dentro de una función?
+    - a. Privado
+    - b. Público
+    - c. Local (*)
+    - d. Global
+
+
+10 ¿Qué sucede cuando se llama a una función en JavaScript?
+    - a. Se devuelve un valor desde la función
+    - b. Se ejecuta el código dentro de la función
+    - c. Todas las anteriores (*)
+    - d. Se pasa un parámetro a la función

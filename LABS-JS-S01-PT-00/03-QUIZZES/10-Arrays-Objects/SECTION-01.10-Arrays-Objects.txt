@@ -1,0 +1,68 @@
+01 ¿Cómo se declara un array en JavaScript?
+    - a. Utilizando el constructor `Array()`
+    - b. Utilizando llaves `{}`
+    - c. Utilizando el constructor `Object()`
+    - d. Utilizando corchetes `[]` (*)
+
+
+02 ¿Qué método se utiliza para agregar elementos al final de un array?
+    - a. `push()` (*)
+    - b. `shift()`
+    - c. `unshift()`
+    - d. `pop()`
+
+
+03 ¿Qué método se utiliza para eliminar el último elemento de un array?
+    - a. `push()`
+    - b. `pop()` (*)
+    - c. `shift()`
+    - d. `unshift()`
+
+
+04 ¿Cómo se declara un objeto en JavaScript?
+    - a. Utilizando llaves `{}` (*)
+    - b. Utilizando el constructor `Array()`
+    - c. Utilizando el constructor `Object()`
+    - d. Utilizando corchetes `[]`
+
+
+05 ¿Qué operador se utiliza para acceder a una propiedad de un objeto?
+    - a. `[]` (*)
+    - b. `{}`
+    - c. `()`
+    - d. `.`
+
+
+06 ¿Qué método se utiliza para eliminar una propiedad de un objeto?
+    - a. `delete` (*)
+    - b. `in`
+    - c. `Object.keys()`
+    - d. `Object.values()`
+
+
+07 ¿Qué método se utiliza para verificar si una propiedad existe en un objeto?
+    - a. `in` (*)
+    - b. `Object.keys()`
+    - c. `Object.values()`
+    - d.  `delete`
+
+
+08 ¿Qué método se utiliza para obtener un array con las propiedades de un objeto?
+    - a.  `Object.keys()` (*)
+    - b. `delete`
+    - c.  `Object.values()`
+    - d. `in`
+
+
+09 ¿Qué método se utiliza para obtener un array con los valores de un objeto?
+    - a. `Object.keys()`
+    - b. `Object.values()` (*)
+    - c. `in`
+    - d. `delete`
+
+
+10 ¿Qué es un array en JavaScript?
+    - a. Una colección de elementos del mismo tipo o diferente tipo (*)
+    - b. Una colección de pares clave-valor
+    - c. Una función
+    - d. Un objeto

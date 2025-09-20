@@ -1,0 +1,7 @@
+08 ¿Qué es la extensión "Prettier" en VS Code?
+    - a. Un autocompletado de código
+    - b. Un resaltado de sintaxis
+    - c. Un formateador de código (*)
+    - d. Un depurador
+
+¿Cuál es la utilidad de la extensión "Prettier" de VS Code?

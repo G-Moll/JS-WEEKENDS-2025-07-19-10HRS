@@ -1,0 +1,68 @@
+01 ¿Dónde se ejecuta el JavaScript Cliente?
+    - a. Dispositivo móvil
+    - b. Navegador del cliente (*)
+    - c. Escritorio
+    - d. Servidor
+
+
+02 ¿Qué framework es utilizado para crear aplicaciones móviles con JavaScript?
+    - a. React
+    - b. Angular
+    - c. Vue.js
+    - d. React Native (*)
+
+
+03 ¿Qué tecnología permite ejecutar JavaScript en el servidor?
+    - a. Node.js (*)
+    - b. React
+    - c. Angular
+    - d. Vue.js
+
+
+04 ¿Qué tipo de JavaScript se utiliza para crear interfaces de usuario interactivas?
+    - a. JavaScript Móvil
+    - b. JavaScript de Escritorio
+    - c. JavaScript Cliente (*)
+    - d. JavaScript Servidor
+
+
+05 ¿Qué framework es utilizado para crear aplicaciones web con JavaScript?
+    - a. React
+    - b. Todas las anteriores (*)
+    - c. Angular
+    - d. Vue.js
+
+
+06 ¿Dónde se ejecuta el JavaScript Servidor?
+    - a. Navegador del cliente
+    - b. Dispositivo móvil
+    - c. Escritorio
+    - d. Servidor (*)
+
+
+07 ¿Qué tipo de JavaScript se utiliza para crear aplicaciones de servidor?
+    - a. JavaScript de Escritorio
+    - b. JavaScript Móvil
+    - c. JavaScript Cliente
+    - d. JavaScript Servidor (*)
+
+
+08 ¿Qué tecnología permite acceder a los recursos del dispositivo móvil?
+    - a. Todas las anteriores (*)
+    - b. Ionic
+    - c. Angular Mobile
+    - d. React Native
+
+
+09 ¿Qué tipo de JavaScript se utiliza para crear aplicaciones móviles híbridas?
+    - a. JavaScript de Escritorio
+    - b. JavaScript Móvil (*)
+    - c. JavaScript Cliente
+    - d. JavaScript Servidor
+
+
+10 ¿Qué framework es utilizado para crear aplicaciones de escritorio con JavaScript?
+    - a. Vue.js
+    - b. React
+    - c. Electron (*)
+    - d. Angular

@@ -1,0 +1,9 @@
+02 ¿Cómo se instala VS Code?
+    - a. Ejecutando un comando en la terminal
+    - b. Instalando desde la tienda de aplicaciones
+    - c. Descargando desde el sitio web oficial (*)
+    - d. Todas las anteriores
+
+Linux: Línea de comandos
+MacOS: Instalador (Web oficial)
+Windows: Tienda de aplicaciones e Instalador (Web oficial)

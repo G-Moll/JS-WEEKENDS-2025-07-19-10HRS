@@ -1,0 +1,7 @@
+03 ¿Qué tecnología permite ejecutar JavaScript en el servidor?
+    - a. Node.js (*)
+    - b. React
+    - c. Angular
+    - d. Vue.js
+
+Node.js es un Runtime y un Framework de JavaScript

@@ -1,0 +1,68 @@
+01 ¿Cuál es el propósito principal de un editor de código en JavaScript?
+    - a. Diseñar interfaces
+    - b. Escribir y editar código (*)
+    - c. Ejecutar código
+    - d. Depurar código
+
+
+02 ¿Qué navegador es conocido por su herramienta de depuración avanzada?
+    - a. Safari
+    - b. Microsoft Edge
+    - c. Mozilla Firefox
+    - d. Google Chrome (*)
+
+
+03 ¿Qué es la consola en JavaScript?
+    - a. Un depurador
+    - b. Una herramienta para ejecutar comandos (*)
+    - c. Un framework
+    - d. Un editor de código
+
+
+04  ¿Cuál es el propósito de la herramienta de depuración en JavaScript?
+    - a. Diseñar interfaces
+    - b. Mejorar rendimiento
+    - c. Optimizar código
+    - d. Identificar errores (*)
+
+
+05 ¿Qué es un framework en JavaScript?
+    - a. Un editor de código
+    - b. Un navegador
+    - c. Un conjunto de código preescrito (*)
+    - d. Un depurador
+
+
+06 ¿Cuál es el propósito de un gestor de paquetes en JavaScript?
+    - a. Gestionar dependencias (*)
+    - b. Depurar código
+    - c. Ejecutar código
+    - d. Diseñar interfaces
+
+
+07 ¿Qué es Webpack?
+    - a. Un depurador
+    - b. Un editor de código
+    - c. Una herramienta de construcción (*)
+    - d. Un framework
+
+
+08 ¿Cuál es la diferencia entre un editor de código y un IDE?
+    - a. Un IDE es más complejo (*)
+    - b. Un editor de código es solo para HTML
+    - c. Un IDE es solo para JavaScript
+    - d. Un editor de código es más ligero
+
+
+09 ¿Cuál es el propósito de la extensión de código en JavaScript?
+    - a. Mejorar rendimiento
+    - b. Agregar funcionalidades (*)
+    - c. Identificar errores
+    - d. Diseñar interfaces
+
+
+10 ¿Cuál es el beneficio principal de utilizar un entorno de desarrollo en JavaScript?
+    - a. Menor tiempo de depuración
+    - b. Mejora en la calidad del código
+    - c. Todas las anteriores (*)
+    - d. Mayor productividad

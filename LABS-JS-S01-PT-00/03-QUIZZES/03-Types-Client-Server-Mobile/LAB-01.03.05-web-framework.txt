@@ -1,0 +1,9 @@
+05 ¿Qué framework es utilizado para crear aplicaciones web con JavaScript?
+    - a. React
+    - b. Todas las anteriores (*)
+    - c. Angular
+    - d. Vue.js
+
+Angular: Framework
+React:   Librería
+Vue.js:  Librería Progresiva

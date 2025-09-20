@@ -1,0 +1,11 @@
+06 ¿Qué librería de JavaScript es conocida por su uso en análisis de datos?
+    - a. Lodash
+    - b. Moment.js
+    - c. D3.js (*)
+    - d. jQuery
+
+
+Lodash:    Utilidades de Arreglos y Objetos
+Moment.js: Utilidades de tiempo y fechas
+D3.js (*): Utilidades para generar gráficas
+jQuery:    Utilidades para manipular el DOM

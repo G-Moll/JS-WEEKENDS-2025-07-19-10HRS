@@ -1,0 +1,9 @@
+06 ¿Cómo se instala Atom?
+    - a. Todas las anteriores
+    - b. Descargando desde el sitio web oficial (*)
+    - c. Instalando desde la tienda de aplicaciones
+    - d. Ejecutando un comando en la terminal
+
+Linux: Línea de comandos
+MacOS: Instalador (Web oficial)
+Windows: Instalador (Web oficial)

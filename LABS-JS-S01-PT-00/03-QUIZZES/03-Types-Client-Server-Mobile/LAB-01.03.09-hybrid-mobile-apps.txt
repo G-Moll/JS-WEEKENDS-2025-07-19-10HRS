@@ -1,0 +1,12 @@
+09 ¿Qué tipo de JavaScript se utiliza para crear aplicaciones móviles híbridas?
+    - a. JavaScript de Escritorio
+    - b. JavaScript Móvil (*)
+    - c. JavaScript Cliente
+    - d. JavaScript Servidor
+
+- No hay versiones JavaScript para Cliente, Servidor, Mobile o Desktop.
+- Hay entornos donde corre una VMJS y por ende, allí se ejecutan aplicaciones JavaScript.
+
+- Para crear una aplicaciones móvil es necesario:
+    - Un WebView (Android, iOS, Windows Mobile, BlackBerry, etc)
+    - Una aplicaciones web que accede a los recursos del dispositivo

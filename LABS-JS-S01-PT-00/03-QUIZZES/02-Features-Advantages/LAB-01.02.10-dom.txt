@@ -1,0 +1,10 @@
+10 ¿Qué característica de JavaScript permite interactuar con documentos HTML y hojas de estilos CSS?
+    - a. DOM (*)
+    - b. JSON
+    - c. AJAX
+    - d. BOM
+
+a. DOM (*): Contenido HTML
+b. JSON: Formato de intercambio de Datos, alternativa a Texto Plano o XML
+c. AJAX: Técnica de carga asíncrona de datos
+d. BOM: Interacción con el Web Browser

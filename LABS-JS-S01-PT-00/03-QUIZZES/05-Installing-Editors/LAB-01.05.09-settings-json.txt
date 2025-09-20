@@ -1,0 +1,7 @@
+09 ¿Qué es el archivo "settings.json" en VS Code?
+    - a. Un archivo de código
+    - b. Un archivo de paquetes
+    - c. Un archivo de configuración (*)
+    - d. Un archivo de depuración
+
+¿Cuál es el propósito del archivo "settings.json" de VS Code?

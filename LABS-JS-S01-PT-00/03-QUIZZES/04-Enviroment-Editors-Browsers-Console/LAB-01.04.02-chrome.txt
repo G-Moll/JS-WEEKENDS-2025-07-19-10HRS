@@ -1,0 +1,5 @@
+01 ¿Cuál es el propósito principal de un editor de código en JavaScript?
+    - a. Diseñar interfaces
+    - b. Escribir y editar código (*)
+    - c. Ejecutar código
+    - d. Depurar código

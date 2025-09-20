@@ -1,0 +1,8 @@
+05 ¿Qué es un framework en JavaScript?
+    - a. Un editor de código
+    - b. Un navegador
+    - c. Un conjunto de código preescrito (*)
+    - d. Un depurador
+
+- Conjunto de código preescrito
+- Conjunto de reglas que determinan la forma de trabajo

@@ -1,0 +1,10 @@
+08 ¿Qué tecnología permite acceder a los recursos del dispositivo móvil?
+    - a. Todas las anteriores (*)
+    - b. Ionic
+    - c. Angular Mobile
+    - d. React Native
+
+- No existe Angular Mobile
+- Existe Angular que se puede usar como:
+    - PWA
+    - Aplicación Responsiva

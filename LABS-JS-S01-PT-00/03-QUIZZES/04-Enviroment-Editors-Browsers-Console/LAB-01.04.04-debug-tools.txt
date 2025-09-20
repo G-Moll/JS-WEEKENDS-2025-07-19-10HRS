@@ -1,0 +1,7 @@
+04  ¿Cuál es el propósito de la herramienta de depuración en JavaScript?
+    - a. Diseñar interfaces
+    - b. Mejorar rendimiento
+    - c. Optimizar código
+    - d. Identificar errores (*)
+
+Herramienta de depuración del Navegador/IDE que sirve para monitorear/probar cómo se comporta el código.

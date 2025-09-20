@@ -1,0 +1,12 @@
+08 ¿Qué entorno de ejecución de JavaScript se creó en 2009 para desarrollar aplicaciones en el servidor?
+    - a. Node.js (*)
+    - b. Ruby on Rails
+    - c. Flask
+    - d. Django
+
+
+Node.js no se pensó como un runtime que usara JavaScript como lenguaje principal.
+
+Node.js fue creado con C/C++, Ryan Dahl no estaba seguro qué lenguaje usaría pues pensaba en alguno de alto nivel.
+
+Casualmente se encontró con JavaScript, la decisión de usarlo fue debido en su asincronía.

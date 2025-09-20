@@ -1,0 +1,8 @@
+02 ¿Qué framework es utilizado para crear aplicaciones móviles con JavaScript?
+    - a. React
+    - b. Angular
+    - c. Vue.js
+    - d. React Native (*)
+
+React:        Librería
+React Native: Framework

@@ -1,0 +1,7 @@
+10 ¿Qué es el menú "Extensiones" en VS Code?
+    - a. Un menú de depuración
+    - b. Un menú de configuración
+    - c. Un menú para instalar extensiones (*)
+    - d. Un menú de código
+
+Es un Panel/Pestaña/Tab, no es un menú

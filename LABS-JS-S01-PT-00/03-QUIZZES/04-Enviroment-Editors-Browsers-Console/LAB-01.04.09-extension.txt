@@ -1,0 +1,9 @@
+09 ¿Cuál es el propósito de la extensión de código en JavaScript?
+    - a. Mejorar rendimiento
+    - b. Agregar funcionalidades (*)
+    - c. Identificar errores
+    - d. Diseñar interfaces
+
+Extensión:
+    - .js: conjunto de caracteres que indican eltipo de archivo
+    - Plug-in/Paquete: Herramienta del editor que agrega funcionalidades

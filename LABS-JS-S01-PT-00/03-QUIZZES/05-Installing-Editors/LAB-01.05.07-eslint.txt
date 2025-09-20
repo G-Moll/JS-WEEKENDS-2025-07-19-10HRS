@@ -1,0 +1,7 @@
+07 ¿Qué es la extensión "ESLint" en VS Code?
+    - a. Un autocompletado de código
+    - b. Un resaltado de sintaxis
+    - c. Un verificador de calidad de código (*)
+    - d. Un depurador
+
+¿Cuál es la utilidad de la extensión "ESLint" de VS Code?
