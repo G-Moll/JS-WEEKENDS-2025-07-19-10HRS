@@ -1,44 +1,43 @@
-Proyectos Propuestos
-01. Gestor de Tareas Personal
-DESCRIPCIÓN
-Aplicación para crear, editar y eliminar tareas con categorías
+PROYECTOS PROPUESTOS
+Cada uno de los proyectos, pretenden tener un flujo trabajo/desarrollo desde el Frontend, Backend y Persistencia; considerando enfoque autodidacta (por parte del usuario en los temas HTML, CSS, JS, etc) y de acompañamiento (por parte del instructor en los temas de JS y PHP principalmente).
 
-02. Catálogo de Películas Personal
-DESCRIPCIÓN
-Sistema para guardar y calificar películas vistas
+Los temas que se verán en las futuras sesiones serán los temas referentes a trabajar con JavaScript, PHP y MySQL para entender cómo trabajan conjuntamente, todo basándose en los conceptos esenciales de cada tecnología, sin usar frameworks o librerías.
 
-03. Gestor de Gastos Mensuales
-DESCRIPCIÓN
-Registro y categorización de gastos con informes
+Dependiendo de qué funcionalidades se quieran desarrollar en cada uno de los proyectos, ello implicará principalmente más investigación por parte de los alumnos.
 
-04. Lista de Contactos Avanzada
-DESCRIPCIÓN
-Agenda con búsqueda, filtros y exportación
+Los proyectos que se listan a continuación, son los que se pretenden realizar en los módulos 2 y 3 de JavaScript.
 
+Cada alumnos trabajará individualmente en un sólo proyecto durante dichos módulos; construyendo todo lo necesario para que el proyecto funcione al menos como un MVP.
+- Frontend (HTML, CSS, JavaScript)
+- Backend (PHP o algún otro lenguaje)
+- Persistencia (MySQL o algún otro RDBMS)
 
-05. Buscador de Recetas con Favoritos
-DESCRIPCIÓN
-Buscar recetas y guardar favoritos
+01 - Gestor de Tareas Personal
+DESCRIPCIÓN: Aplicación para crear, editar y eliminar tareas con categorías
 
-06. Sistema de Reservas de Hotel
-DESCRIPCIÓN
-Gestión de habitaciones y reservas
+02 - Catálogo de Películas Personal
+DESCRIPCIÓN: Sistema para guardar y calificar películas vistas
 
-07. Blog Personal con Comentarios
-DESCRIPCIÓN
-Crear posts y gestionar comentarios
+03 - Gestor de Gastos Mensuales
+DESCRIPCIÓN: Registro y categorización de gastos con informes
 
+04 - Lista de Contactos Avanzada
+DESCRIPCIÓN: Agenda con búsqueda, filtros y exportación
 
-08. Inventario de Biblioteca
-DESCRIPCIÓN
-Control de libros, préstamos y devoluciones
+05 - Buscador de Recetas con Favoritos
+DESCRIPCIÓN: Buscar recetas y guardar favoritos
 
-09. Clima y Planificador de Actividades
-DESCRIPCIÓN
-Planificar actividades según condiciones climáticas
+06 - Sistema de Reservas de Hotel
+DESCRIPCIÓN: Gestión de habitaciones y reservas
 
+07 - Blog Personal con Comentarios
+DESCRIPCIÓN: Crear posts y gestionar comentarios
 
-10. Marketplace de Productos Básico
-DESCRIPCIÓN
-Catálogo de productos con carrito de compras
+08 - Inventario de Biblioteca
+DESCRIPCIÓN: Control de libros, préstamos y devoluciones
 
+09 - Clima y Planificador de Actividades
+DESCRIPCIÓN: Planificar actividades según condiciones climáticas
+
+10 - Marketplace de Productos Básico
+DESCRIPCIÓN: Catálogo de productos con carrito de compras
