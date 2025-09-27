@@ -1,9 +1,11 @@
-Especificaciones ECMA262
+// Especificaciones ECMA262
 
-Implementaciones
-    Web Browser (window)
-    NodeJS (global)
-    CouchDB/MongoDB
+// Implementaciones 
+    // jQuery 4
+    // Web Browser (window)
+    // NodeJS (global)
+    // CouchDB/MongoDB
+    // ESP32 Presto: ES3
 
 
 

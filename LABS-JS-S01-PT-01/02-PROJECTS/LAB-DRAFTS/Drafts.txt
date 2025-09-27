@@ -1,0 +1,44 @@
+Proyectos Propuestos
+01. Gestor de Tareas Personal
+DESCRIPCIÓN
+Aplicación para crear, editar y eliminar tareas con categorías
+
+02. Catálogo de Películas Personal
+DESCRIPCIÓN
+Sistema para guardar y calificar películas vistas
+
+03. Gestor de Gastos Mensuales
+DESCRIPCIÓN
+Registro y categorización de gastos con informes
+
+04. Lista de Contactos Avanzada
+DESCRIPCIÓN
+Agenda con búsqueda, filtros y exportación
+
+
+05. Buscador de Recetas con Favoritos
+DESCRIPCIÓN
+Buscar recetas y guardar favoritos
+
+06. Sistema de Reservas de Hotel
+DESCRIPCIÓN
+Gestión de habitaciones y reservas
+
+07. Blog Personal con Comentarios
+DESCRIPCIÓN
+Crear posts y gestionar comentarios
+
+
+08. Inventario de Biblioteca
+DESCRIPCIÓN
+Control de libros, préstamos y devoluciones
+
+09. Clima y Planificador de Actividades
+DESCRIPCIÓN
+Planificar actividades según condiciones climáticas
+
+
+10. Marketplace de Productos Básico
+DESCRIPCIÓN
+Catálogo de productos con carrito de compras
+
