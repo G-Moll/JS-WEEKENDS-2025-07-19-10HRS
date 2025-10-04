@@ -1,4 +1,4 @@
-// var hoisting
+// var
 var classic = "Esto es una cadena";
 console.log( classic, typeof classic );
 var classic = 5;
