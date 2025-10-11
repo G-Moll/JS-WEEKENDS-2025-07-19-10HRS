@@ -1,11 +1,13 @@
 // Arrow Function: ES6
-var arrowTwo = () => {
-    return 10;
+var arrowTwo = ( num ) => {
+    console.log( num );
 };
-var a = arrowTwo();
-console.log( a );
+arrowTwo( 10 );
 
-var arrowThree = a => {
-    console.log( a );
+var arrowThree = num => {
+    console.log( num );
 }
 arrowThree( 37 );
+
+var arrowFour = num => console.log( num );
+arrowFour( 82 );

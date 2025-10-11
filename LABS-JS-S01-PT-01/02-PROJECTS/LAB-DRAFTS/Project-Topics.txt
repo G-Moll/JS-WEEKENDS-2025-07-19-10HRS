@@ -1,0 +1,23 @@
+FULLSTACK
+
+Frontend (Design/Development)
+    HTML/CSS/JS
+        - ES5
+        - AJAX
+        - DOM
+        - Events
+        - Modules
+Backend (Design/Development)
+    PHP
+        - PSR-4
+            - * Frameworks: Laravel, Codeigniter, Symphony
+            - * Composer
+        - Cmd
+            - Navegar en el OS
+            - Ejecutar apps
+Persistence (Design/Development)
+    MySQL
+        - SQL
+
+
+* Depende del tiempo y temas que podamos cubrir

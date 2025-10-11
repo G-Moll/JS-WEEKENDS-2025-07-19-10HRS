@@ -6,13 +6,15 @@ function hello() {
 }
 // calling, running, executing, invoking, evaluating
 hello()
+var h = hello;
+h();
 
 // Parameters
 function sayHello( msg ) {
     console.log( msg + " from JS" );
 }
 // Arguments
-sayHello( "Hello" );
+// sayHello( "Hello" );
 
 
 // Return values
@@ -28,13 +30,13 @@ function holaMundoDos( hola ) {
         timestamp: new Date()
     };
 }
-var b = holaMundoDos( "Gracias por los Camaruns..." );
-console.log( b.value );
-console.log( b[ "timestamp" ] );
+// var b = holaMundoDos( "Gracias por los Camaruns..." );
+// console.log( b.value );
+// console.log( b[ "timestamp" ] );
 
 
 // Function Expresion
 var arrowOne = function() {
     console.log( 10 );
 }
-// arrowOne();
+arrowOne();
