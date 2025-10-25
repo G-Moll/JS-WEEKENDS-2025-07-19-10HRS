@@ -1,0 +1,12 @@
+Compiler
+    - Base Code -> Binary Code
+
+Interpreter
+    - Base Code -> Represented as something legible
+    - <p></p>   -> Paragraph
+    - $ ls      -> Directory Content
+
+Transpiler
+    - Base Code -> Rewritten in a very similar language
+    - TypeScript -> JavaScript
+        - (Super Set JavaScript)
