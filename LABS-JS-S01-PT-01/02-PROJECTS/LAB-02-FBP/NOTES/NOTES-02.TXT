@@ -1,0 +1,15 @@
+Frontend
+    live-server:
+        localhost:3000
+        127.0.0.1:3000
+
+Backend
+    flask:
+        localhost:5000
+        127.0.0.1:5000
+
+DBs
+    MySQL:
+        localhost:3306
+        127.0.0.1:3306
+    

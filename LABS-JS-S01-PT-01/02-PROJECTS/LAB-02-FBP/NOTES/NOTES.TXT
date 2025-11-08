@@ -1,3 +1,15 @@
+Frontend
+    HTML, CSS, JS
+Backend (REST API)
+    Python (Flask)
+    PHP (PSR-4, Composer, PDO, MVC, Arq. Hex, Clean Arq, CORS)
+    Laravel, Spring, EF
+    Spaguetti Code
+DBs
+    MySQL
+
+
+
 return {
     'message': 'Hola desde Flask!',
     'status': 'success'
