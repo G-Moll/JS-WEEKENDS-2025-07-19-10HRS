@@ -11,22 +11,48 @@ contarinerParent.addEventListener( "drop", dropHandler );
 
 function dragStartHandler( e ) {
     if( e.target.classList.contains( "box" ) ) {
+        e.dataTransfer.setData( "targetId", e.target.id );
+        e.target.style.opacity = "0.3";
 
-        console.log( e.target.id );
+        // console.log( e.target.id );
     }
 }
 function dragEndHandler( e ) {
-    console.log( e.type );
+    if( e.target.classList.contains( "box" ) ) {
+        e.target.style.opacity = "1";
+    }
+
+    // console.log( e.type );
 }
 function dragOverHandler( e ) {
-    console.log( e.type );
+    if( e.target.classList.contains( "container" ) ) {
+        e.preventDefault();
+    }
+
+    // console.log( e.type );
 }
 function dragLeaveHandler( e ) {
-    console.log( e.type );
+    if( e.target.classList.contains( "container" ) ) {
+        // e.preventDefault();
+    }
+    // console.log( e.type );
 }
 function dropHandler( e ) {
-    console.log( e.type );
+    var targetId = e.dataTransfer.getData( "targetId" );
+
+    if( e.target.classList.contains( "container" ) ) {
+        e.preventDefault();
+
+        if( targetId ) {
+            e.target.appendChild( document.getElementById( targetId ) );
+        }
+
+        console.log( targetId );
+    }
+
+
+    // console.log( e.type );
 }
 
-console.log( contarinerParent );
+// console.log( contarinerParent );
 

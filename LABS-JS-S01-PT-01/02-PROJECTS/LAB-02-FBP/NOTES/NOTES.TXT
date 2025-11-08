@@ -1,0 +1,4 @@
+return {
+    'message': 'Hola desde Flask!',
+    'status': 'success'
+}
