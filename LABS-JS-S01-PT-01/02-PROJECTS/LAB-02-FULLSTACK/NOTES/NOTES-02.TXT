@@ -1,14 +1,15 @@
-Frontend
-    live-server:
+Frontend (App)
+    lite-server:
+    LiveServer (VSC):
         localhost:3000
         127.0.0.1:3000
 
-Backend
-    flask:
+Backend (App)
+    Flask:
         localhost:5000
         127.0.0.1:5000
 
-DBs
+DBs (App)
     MySQL:
         localhost:3306
         127.0.0.1:3306

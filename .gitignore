@@ -1,0 +1,14 @@
+*.exe
+*.class
+*.bkp
+*.drawio.bkp
+*.db
+
+*/*.exe
+*/*.class
+*/*.bkp
+*/*.drawio.bkp
+*/*.db
+
+__pycache__
+venv
