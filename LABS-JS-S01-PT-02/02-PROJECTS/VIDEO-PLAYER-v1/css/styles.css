@@ -1,0 +1,32 @@
+/*
+id          #
+class       .
+element
+
+*/
+
+* {
+    font-family: Calibri;
+}
+
+body {
+    margin: 0;
+}
+
+video {
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+
+span {
+    display: inline-block;
+    width: 100px;
+    padding: 8px;
+    margin: 4px;
+    background-color: crimson;
+    color: white;
+    cursor: pointer;
+}
+
+

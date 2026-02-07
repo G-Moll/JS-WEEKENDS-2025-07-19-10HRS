@@ -1,0 +1,16 @@
+// https://videos.pexels.com/video-files/30422691/13036893_2560_1440_60fps.mp4
+// https://videos.pexels.com/video-files/5669598/5669598-uhd_2560_1440_30fps.mp4
+// https://videos.pexels.com/video-files/19002095/19002095-uhd_2560_1440_60fps.mp4
+// https://videos.pexels.com/video-files/1723017/1723017-uhd_2560_1440_25fps.mp4
+
+
+{ title: "Gift Box",            uri: "5889619/5889619-uhd_2560_1440_25fps.mp4" },
+{ title: "Festival Production", uri: "2890236/2890236-hd_1920_1080_30fps.mp4" },
+{ title: "Earth",               uri: "5921369/5921369-hd_1920_1080_30fps.mp4" },
+{ title: "Cat Shower",          uri: "855029/855029-hd_1920_1080_30fps.mp4" },
+{ title: "Traffic City",        uri: "2053100/2053100-uhd_2560_1440_30fps.mp4" },
+{ title: "Neon Fractal",        uri: "856996/856996-hd_1920_1080_24fps.mp4" },
+{ title: "Fish Bank",           uri: "1151329/1151329-hd_1920_1080_30fps.mp4" },
+{ title: "Aero City Lights",    uri: "34682750/14700210_2560_1440_30fps.mp4" },
+{ title: "City Lights",         uri: "2432404/2432404-hd_1920_1080_24fps.mp4" },
+{ title: "Abstract Leaves",     uri: "13294237/13294237-hd_1920_1080_25fps.mp4" }
