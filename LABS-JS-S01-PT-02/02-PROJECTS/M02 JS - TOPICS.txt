@@ -1,0 +1,14 @@
+ES5 Core (ES5.1)
+    Sistemas Embebidos
+        Soporte para ES3
+            Arduino, ESP8086, ESP32
+
+
+Modulo 02 JS
+Usaremos Sintaxis ES6, trabajar con ES5 es más complejo en conceptos y llevaría más tiempo.
+    - v0 Reherarse
+    - v1 DOM Listeners
+    - v2 OOP
+    - v3 Modules
+    - v4 Singleton
+    - v5 Components
