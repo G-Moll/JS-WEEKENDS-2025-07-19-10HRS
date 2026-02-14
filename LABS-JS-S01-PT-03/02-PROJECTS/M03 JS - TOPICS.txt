@@ -7,8 +7,8 @@ Modulo 03 JS
 Usaremos Sintaxis ES6, trabajar con ES5 es más complejo en conceptos y llevaría más tiempo.
     - v1 Rehearse
     - v2 DOM Listeners
-    - v3 OOP DOM
-    - v4 OOP Classes
+    - v3 OOP DOM (Async ES5*: AJAX)
+    - v4 OOP Classes (Async ES6*: Fetch, Promises, Async/Await)
     - v5 Modules
     - v6 Animations
     - v7 Singleton (Tentativo)

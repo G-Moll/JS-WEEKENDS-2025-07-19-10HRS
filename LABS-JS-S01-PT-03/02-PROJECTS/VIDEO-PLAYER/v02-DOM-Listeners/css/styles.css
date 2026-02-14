@@ -29,4 +29,11 @@ span {
     cursor: pointer;
 }
 
+.video-played {
+    color: teal;
+    background-color: lightgreen;
+    display: block;
+    margin: 0.5em;
+}
+
 

@@ -15,7 +15,7 @@ spanPip.addEventListener( "click", pipHandler )
 // Event Handlers
 function fullscreenHandler( e ) {
     console.log( e.type, "Fullscreen" );
-    videoUI.requestFullscreen();    
+    videoUI.requestFullscreen();
 }
 
 function pipHandler( e ) {
