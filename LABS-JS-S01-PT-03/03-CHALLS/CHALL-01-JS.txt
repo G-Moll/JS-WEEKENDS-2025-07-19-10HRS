@@ -1,0 +1,7 @@
+CHALL JS
+
+Resolver lo siguiente:
+1) Guardar el historial de los Videos ya reproducidos
+2) Al dar click a algún elemento de la lista (Videos ya del historial) Reproducir el Respectivo Video
+
+Habrá que descargar el ejercicio del github.
