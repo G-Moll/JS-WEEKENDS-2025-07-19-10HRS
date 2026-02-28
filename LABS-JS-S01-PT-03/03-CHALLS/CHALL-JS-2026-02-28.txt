@@ -1,0 +1,6 @@
+EJERCICIO 2026-02-28
+1) Crear dinámicamente un Playlist con los datos de los videos.
+2) Reproducir automáticamente todo el Playlist
+3) La Reprodución Automática se habilitará/deshabilitará cuando de presione el botón AUTOPLAY
+4) Debe existir un indicador en la UI para saber cuando está activo el AUTOPLAY
+5) Del Playlist Reproducir el video correspondiente al span, cuando se dé click en él
