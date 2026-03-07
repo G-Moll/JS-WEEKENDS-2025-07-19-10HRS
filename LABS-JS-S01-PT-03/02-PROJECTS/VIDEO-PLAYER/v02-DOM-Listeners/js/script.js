@@ -55,14 +55,13 @@ function createPlaylist( videosData, uiElement ) {
                 onclick="videoPlayHandler( event )">
                 ${ videosData[ i ].title  }
             </span>`;
-        // console.log( videosData[ i ] );
     }
     uiElement.innerHTML = spansContent;
 }
 
 function videoPlayHandler( e ) {
     var videoIndex = e.target.getAttribute( "data-index" );
-    var videoChoice = videoList[videoIndex];
+    var videoChoice = videoList[ videoIndex ];
     updateVideoPlayer( videoChoice );
 
     // console.log( videoIndex );
@@ -99,6 +98,7 @@ function updateVideoPlayer( videoData ) {
     var currentUrl = "https://videos.pexels.com/video-files/" + currentVideoPlaying.uri;
     videoTitle.innerText = currentVideoPlaying.title;
     videoElement.src = currentUrl;
+    videoElement.play();
     console.log( currentVideoPlaying );
 }
 
