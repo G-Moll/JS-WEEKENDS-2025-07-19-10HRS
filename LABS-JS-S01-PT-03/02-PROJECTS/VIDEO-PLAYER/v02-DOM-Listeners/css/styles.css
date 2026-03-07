@@ -30,10 +30,17 @@ span {
 }
 
 .video-played {
+    width: 300px;
     color: teal;
     background-color: lightgreen;
     display: block;
     margin: 0.5em;
+}
+.video-list {
+    width: 300px;
+    display: block;
+    background-color: lightgoldenrodyellow;
+    color: gray;
 }
 
 

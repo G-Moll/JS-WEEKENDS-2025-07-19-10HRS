@@ -4,6 +4,7 @@ var buttonFullscreen = document.getElementsByTagName( "span" )[ 0 ];
 var buttonPip = document.getElementsByTagName( "span" )[ 1 ];
 var buttonRandom = document.getElementsByTagName( "span" )[ 2 ];
 var watchedVideosList = document.getElementById( "watchedVideosList" );
+var videosPlaylist = document.getElementById( "videosPlaylist" );
 var videoTitle = document.querySelector( "#videoTitle" );
 
 // Objects
@@ -31,19 +32,49 @@ var currentVideoPlaying = null;
 // videoElement.loop = true;
 
 // EventListers
+document.addEventListener( "DOMContentLoaded", startUIHandler );
 videoElement.addEventListener( "ended", endedVideoHandler );
 buttonFullscreen.addEventListener( "click", fullscreenHandler );
 buttonPip.addEventListener( "click", pipHandler );
 buttonRandom.addEventListener( "click", randomHandler );
 
+
 // Event Handlers
+function startUIHandler( e ) {
+    createPlaylist( videoList, videosPlaylist );
+}
+
+function createPlaylist( videosData, uiElement ) {
+    var spansContent = "";
+
+    for( var i = 0; i < videosData.length; i ++ ){
+        spansContent +=
+            `<span class="video-list"
+                data-uri=${ videosData[ i ].uri }
+                data-index=${ i }
+                onclick="videoPlayHandler( event )">
+                ${ videosData[ i ].title  }
+            </span>`;
+        // console.log( videosData[ i ] );
+    }
+    uiElement.innerHTML = spansContent;
+}
+
+function videoPlayHandler( e ) {
+    var videoIndex = e.target.getAttribute( "data-index" );
+    var videoChoice = videoList[videoIndex];
+    updateVideoPlayer( videoChoice );
+
+    // console.log( videoIndex );
+    // console.log( videoChoice );
+}
+
 function endedVideoHandler( e ) {
     console.log( e.type );
 
     if( currentVideoPlaying !== null ) {
         watchedVideosList.innerHTML += "<span class='video-played'>" + currentVideoPlaying.title + "</span>";
     }
-
 }
 
 
@@ -58,19 +89,16 @@ function pipHandler( e ) {
 }
 
 function randomHandler( e ) {
-    // Handles the click button
-    updateVideoPlayer();
-    
-    // console.log( e.type, "randomHandler" );
+    var videoChoice = randomVideo();
+    updateVideoPlayer( videoChoice );;
 }
 
-function updateVideoPlayer() {
-    var currentVideoData = randomVideo();
-    currentVideoPlaying = currentVideoData;
+function updateVideoPlayer( videoData ) {
+    currentVideoPlaying = videoData;
 
-    var currentUrl = "https://videos.pexels.com/video-files/" + currentVideoData.uri;
+    var currentUrl = "https://videos.pexels.com/video-files/" + currentVideoPlaying.uri;
+    videoTitle.innerText = currentVideoPlaying.title;
     videoElement.src = currentUrl;
-    videoTitle.innerText = currentVideoData.title;
     console.log( currentVideoPlaying );
 }
 
@@ -78,5 +106,4 @@ function randomVideo() {
     var randomIndex = Math.floor( Math.random() * videoList.length );
     var randomVideo = videoList[ randomIndex ];
     return randomVideo;
-
 }
