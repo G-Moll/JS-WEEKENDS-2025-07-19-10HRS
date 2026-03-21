@@ -84,7 +84,7 @@ function checkAutoplay( spandata ) {
     var videoChoice;
     console.log( autoplayList, videoPlayerIndex );
     
-    if( autoplayList && videoPlayerIndex ) {
+    if( autoplayList && typeof( videoPlayerIndex ) == "number" ) {
         videoPlayerIndex ++;
         videoChoice = videoList[ videoPlayerIndex ];
         updateVideoPlayer( videoChoice );
