@@ -53,7 +53,7 @@ function createPlaylist( videosData, uiElement ) {
 
     for( var i = 0; i < videosData.length; i ++ ){
         spansContent +=
-            `<span class="video-list"
+            `<span class="video-item"
                 data-uri=${ videosData[ i ].uri }
                 data-index=${ i }
                 onclick="videoPlayHandler( event )">
@@ -89,7 +89,7 @@ function checkAutoplay( spandata ) {
         videoChoice = videoList[ videoPlayerIndex ];
         updateVideoPlayer( videoChoice );
     }
-    console.log( videoList[videoPlayerIndex + 1 ] );
+    console.log( videoList[ videoPlayerIndex + 1 ] );
 }
 
 
@@ -105,7 +105,7 @@ function pipHandler( e ) {
 
 function randomHandler( e ) {
     var videoChoice = randomVideo();
-    updateVideoPlayer( videoChoice );;
+    updateVideoPlayer( videoChoice );
 }
 
 function updateVideoPlayer( videoData ) {
@@ -123,7 +123,6 @@ function randomVideo() {
     var randomVideo = videoList[ randomIndex ];
     return randomVideo;
 }
-
 
 function autoplayHandler( e ) {
     autoplayList = ! autoplayList;

@@ -40,11 +40,17 @@ span {
     display: block;
     margin: 0.5em;
 }
-.video-list {
+.video-item {
     width: 300px;
     display: block;
     background-color: lightgoldenrodyellow;
     color: gray;
+}
+.video-playing {
+    width: 300px;
+    display: block;
+    background-color: lightcoral;
+    color: white;
 }
 
 
