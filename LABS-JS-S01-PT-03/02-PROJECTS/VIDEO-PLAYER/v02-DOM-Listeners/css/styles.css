@@ -29,6 +29,10 @@ span {
     cursor: pointer;
 }
 
+.active {
+    background-color: lightgreen;
+}
+
 .video-played {
     width: 300px;
     color: teal;

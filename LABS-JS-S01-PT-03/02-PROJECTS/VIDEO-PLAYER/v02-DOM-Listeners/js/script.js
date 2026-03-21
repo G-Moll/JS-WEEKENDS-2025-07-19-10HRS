@@ -3,6 +3,7 @@ var videoElement = document.getElementsByTagName( "video" )[ 0 ];
 var buttonFullscreen = document.getElementsByTagName( "span" )[ 0 ];
 var buttonPip = document.getElementsByTagName( "span" )[ 1 ];
 var buttonRandom = document.getElementsByTagName( "span" )[ 2 ];
+var buttonAutoplay = document.getElementsByTagName( "span" )[ 3 ];
 var watchedVideosList = document.getElementById( "watchedVideosList" );
 var videosPlaylist = document.getElementById( "videosPlaylist" );
 var videoTitle = document.querySelector( "#videoTitle" );
@@ -26,6 +27,8 @@ var videoList = [
     { title: "Abstract Leaves",     uri: "13294237/13294237-hd_1920_1080_25fps.mp4" }
 ];
 var currentVideoPlaying = null;
+var autoplayList = false;
+var videoPlayerIndex = undefined;
 
 // videoElement.controls = !false;
 // videoElement.autoplay = true;
@@ -36,7 +39,8 @@ document.addEventListener( "DOMContentLoaded", startUIHandler );
 videoElement.addEventListener( "ended", endedVideoHandler );
 buttonFullscreen.addEventListener( "click", fullscreenHandler );
 buttonPip.addEventListener( "click", pipHandler );
-buttonRandom.addEventListener( "click", randomHandler );
+buttonRandom.addEventListener("click", randomHandler);
+buttonAutoplay.addEventListener( "click", autoplayHandler );
 
 
 // Event Handlers
@@ -64,8 +68,7 @@ function videoPlayHandler( e ) {
     var videoChoice = videoList[ videoIndex ];
     updateVideoPlayer( videoChoice );
 
-    // console.log( videoIndex );
-    // console.log( videoChoice );
+    videoPlayerIndex = parseInt( videoIndex );
 }
 
 function endedVideoHandler( e ) {
@@ -74,6 +77,19 @@ function endedVideoHandler( e ) {
     if( currentVideoPlaying !== null ) {
         watchedVideosList.innerHTML += "<span class='video-played'>" + currentVideoPlaying.title + "</span>";
     }
+
+    checkAutoplay( videoPlayerIndex );
+}
+function checkAutoplay( spandata ) {
+    var videoChoice;
+    console.log( autoplayList, videoPlayerIndex );
+    
+    if( autoplayList && videoPlayerIndex ) {
+        videoPlayerIndex ++;
+        videoChoice = videoList[ videoPlayerIndex ];
+        updateVideoPlayer( videoChoice );
+    }
+    console.log( videoList[videoPlayerIndex + 1 ] );
 }
 
 
@@ -106,4 +122,15 @@ function randomVideo() {
     var randomIndex = Math.floor( Math.random() * videoList.length );
     var randomVideo = videoList[ randomIndex ];
     return randomVideo;
+}
+
+
+function autoplayHandler( e ) {
+    autoplayList = ! autoplayList;
+
+    autoplayList ?
+        buttonAutoplay.classList.add( "active" ) :
+        buttonAutoplay.classList.remove( "active" );
+
+    console.log( autoplayList );
 }
