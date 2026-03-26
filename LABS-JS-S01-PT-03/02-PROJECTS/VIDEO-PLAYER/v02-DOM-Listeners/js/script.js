@@ -39,7 +39,7 @@ document.addEventListener( "DOMContentLoaded", startUIHandler );
 videoElement.addEventListener( "ended", endedVideoHandler );
 buttonFullscreen.addEventListener( "click", fullscreenHandler );
 buttonPip.addEventListener( "click", pipHandler );
-buttonRandom.addEventListener("click", randomHandler);
+buttonRandom.addEventListener( "click", randomHandler);
 buttonAutoplay.addEventListener( "click", autoplayHandler );
 
 
@@ -51,7 +51,7 @@ function startUIHandler( e ) {
 function createPlaylist( videosData, uiElement ) {
     var spansContent = "";
 
-    for( var i = 0; i < videosData.length; i ++ ){
+    for( var i = 0; i < videosData.length; i ++ ) {
         spansContent +=
             `<span class="video-item"
                 data-uri=${ videosData[ i ].uri }
@@ -77,9 +77,9 @@ function endedVideoHandler( e ) {
     if( currentVideoPlaying !== null ) {
         watchedVideosList.innerHTML += "<span class='video-played'>" + currentVideoPlaying.title + "</span>";
     }
-
     checkAutoplay( videoPlayerIndex );
 }
+
 function checkAutoplay( spandata ) {
     var videoChoice;
     console.log( autoplayList, videoPlayerIndex );
@@ -91,7 +91,6 @@ function checkAutoplay( spandata ) {
     }
     console.log( videoList[ videoPlayerIndex + 1 ] );
 }
-
 
 function fullscreenHandler( e ) {
     console.log( e.type, "Fullscreen" );
