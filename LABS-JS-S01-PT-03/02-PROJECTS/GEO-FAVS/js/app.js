@@ -19,8 +19,8 @@ async function handleClickLocation( e ) {
         let errorMessage = e.message;
 
         if( e.code === 1 ) errorMessage = "Permiso denegado";
-        else if ( e.code === 2 ) errorMessage = "Ubicacion no encontrada";
-        else if ( e.code === 3 ) errorMessage = "Tiempo agotado";
+        else if( e.code === 2 ) errorMessage = "Ubicacion no encontrada";
+        else if( e.code === 3 ) errorMessage = "Tiempo agotado";
 
         console.log( errorMessage );
     }
