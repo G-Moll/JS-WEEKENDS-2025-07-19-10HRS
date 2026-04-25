@@ -18,6 +18,6 @@ export function formatLocationMessage( position ) {
         lat: latitude,
         lng: longitude,
         acc: accuracy,
-        txt: `${latitude.toFixed( 5 )}, ${longitude.toFixed( 5 )}, (precission:${accuracy.toFixed( 0 ) }m)`
+        txt: `📍 ${latitude.toFixed( 5 )}, ${longitude.toFixed( 5 )}, (precission:+-${accuracy.toFixed( 0 ) }m)`
     };
 }

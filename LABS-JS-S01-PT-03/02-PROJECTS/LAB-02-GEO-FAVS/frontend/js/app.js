@@ -11,7 +11,7 @@ async function handleClickLocation( e ) {
 
     try {
         const position = await getCurrentPosition();
-        const { lat, lng, acc,txt } = formatLocationMessage( position );
+        const { lat, lng, acc, txt } = formatLocationMessage( position );
         statusText.textContent = txt;
         // console.log( position );
         // console.log( position.coords.accuracy );
