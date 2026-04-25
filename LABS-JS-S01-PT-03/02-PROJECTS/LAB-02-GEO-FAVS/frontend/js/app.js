@@ -1,7 +1,8 @@
-import { getCurrentPosition } from './geolocation.js';
+import { getCurrentPosition, formatLocationMessage } from './geolocation.js';
 // import { x, y } from './map.js';
 
 const locateBtn = document.getElementById( "locateBtn" );
+const statusText = document.getElementById( "statusText" );
 
 locateBtn.addEventListener( "click", handleClickLocation );
 
@@ -10,10 +11,12 @@ async function handleClickLocation( e ) {
 
     try {
         const position = await getCurrentPosition();
-        console.log( position );
-        console.log( position.coords.accuracy );
-        console.log( position.coords.latitude );
-        console.log( position.coords.longitude );
+        const { lat, lng, acc,txt } = formatLocationMessage( position );
+        statusText.textContent = txt;
+        // console.log( position );
+        // console.log( position.coords.accuracy );
+        // console.log( position.coords.latitude );
+        // console.log( position.coords.longitude );
     }
     catch( e ) {
         let errorMessage = e.message;

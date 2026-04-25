@@ -1,0 +1,14 @@
+// CREATE FRONTEND PROJECT
+    - Vanilla JS
+    - Basic Structure
+
+GeoFavs-
+📁 css
+    📄 styles.css
+
+📁 js
+    📄 app.js
+    📄 geolocation.js
+    📄 map.js
+
+📄 index.html
