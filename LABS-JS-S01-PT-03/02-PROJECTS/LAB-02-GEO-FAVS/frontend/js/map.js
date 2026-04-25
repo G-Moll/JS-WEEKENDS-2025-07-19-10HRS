@@ -13,10 +13,10 @@ export function mapInit( mapContainer = "map", defaultCoords = [ 19.4245515, -99
         .map( mapContainer )
         .setView( defaultCoords, defaultZoom );
 
-    // Default url where basemaps are taken
-    //      s: servers; z: zoom; x, y: coords; r: render
-    //      light_all: map theme; .png: image tiles map
-    // map from leaflet is added to div on DOM ( div with id "map" ) 
+    // .tileLayer: Default url where basemaps are taken
+    //      s: servers;     z: zoom;    x, y: coords;   r: render method
+    //      light_all: map theme;       .png: map tiles image format
+    // .addTo: map from leaflet is added to div on DOM ( div with id "map" ) 
     L
         .tileLayer( 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png' )
         .addTo( mapInstance );
