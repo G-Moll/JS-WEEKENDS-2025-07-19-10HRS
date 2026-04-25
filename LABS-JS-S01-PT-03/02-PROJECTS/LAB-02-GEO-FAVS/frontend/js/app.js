@@ -21,14 +21,13 @@ async function handleClickLocation( e ) {
     catch( e ) {
         let errorMessage = e.message;
 
-        if( e.code === 1 ) errorMessage = "Denyed permissions";
-        else if( e.code === 2 ) errorMessage = "Not found location";
-        else if( e.code === 3 ) errorMessage = "Timeout";
+        if( e.code === 1 ) errorMessage = "Denied permissions...📍❌";
+        else if( e.code === 2 ) errorMessage = "Not found location 🗺️❌";
+        else if( e.code === 3 ) errorMessage = "Timeout ⏰";
 
         console.log( errorMessage );
     }
     finally {
         locateBtn.disabled = false;
     }
-
 }
