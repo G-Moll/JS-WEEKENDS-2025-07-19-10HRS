@@ -1,6 +1,7 @@
 import { getCurrentPosition, formatLocationMessage } from './geolocation.js';
-// import { x, y } from './map.js';
+import { initMap, updateMapLocation } from './map.js';
 
+const map = initMap( "map" );
 const locateBtn = document.getElementById( "locateBtn" );
 const statusText = document.getElementById( "statusText" );
 
@@ -13,10 +14,9 @@ async function handleClickLocation( e ) {
         const position = await getCurrentPosition();
         const { lat, lng, acc, txt } = formatLocationMessage( position );
         statusText.textContent = txt;
+        updateMapLocation( lat, lng );
+        
         // console.log( position );
-        // console.log( position.coords.accuracy );
-        // console.log( position.coords.latitude );
-        // console.log( position.coords.longitude );
     }
     catch( e ) {
         let errorMessage = e.message;
