@@ -1,12 +1,16 @@
+// IMPORT CUSTOM LIBRARIES
 import { getCurrentPosition, formatLocationMessage } from './geolocation.js';
-import { initMap, updateMapLocation } from './map.js';
+import { mapInit, mapUpdate } from './map.js';
 
-const map = initMap( "map" );
+// READ DOM OBJECTS
+const map = mapInit( "map" );
 const locateBtn = document.getElementById( "locateBtn" );
 const statusText = document.getElementById( "statusText" );
 
+// EVENT LISTENERS
 locateBtn.addEventListener( "click", handleClickLocation );
 
+// EVENT HANDLERS
 async function handleClickLocation( e ) {
     locateBtn.disabled = true;
 
@@ -14,7 +18,7 @@ async function handleClickLocation( e ) {
         const position = await getCurrentPosition();
         const { lat, lng, acc, txt } = formatLocationMessage( position );
         statusText.textContent = txt;
-        updateMapLocation( lat, lng );
+        mapUpdate( lat, lng );
         
         // console.log( position );
     }
@@ -23,7 +27,7 @@ async function handleClickLocation( e ) {
 
         if( e.code === 1 ) errorMessage = "Denied permissions...📍❌";
         else if( e.code === 2 ) errorMessage = "Not found location 🗺️❌";
-        else if( e.code === 3 ) errorMessage = "Timeout ⏰";
+        else if( e.code === 3 ) errorMessage = "Timeout ⏰❌";
 
         console.log( errorMessage );
     }
