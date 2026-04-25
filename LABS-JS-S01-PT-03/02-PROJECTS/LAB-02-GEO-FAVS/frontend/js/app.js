@@ -21,9 +21,9 @@ async function handleClickLocation( e ) {
     catch( e ) {
         let errorMessage = e.message;
 
-        if( e.code === 1 ) errorMessage = "Permiso denegado";
-        else if( e.code === 2 ) errorMessage = "Ubicacion no encontrada";
-        else if( e.code === 3 ) errorMessage = "Tiempo agotado";
+        if( e.code === 1 ) errorMessage = "Denyed permissions";
+        else if( e.code === 2 ) errorMessage = "Not found location";
+        else if( e.code === 3 ) errorMessage = "Timeout";
 
         console.log( errorMessage );
     }
