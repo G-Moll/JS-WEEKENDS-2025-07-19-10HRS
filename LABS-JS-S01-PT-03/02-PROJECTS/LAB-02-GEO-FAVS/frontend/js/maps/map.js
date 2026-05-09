@@ -25,6 +25,25 @@ export function mapInit( mapContainer = "map", defaultCoords = [ 19.4245515, -99
     return mapInstance;
 }
 
-export function mapUpdate() {
-    console.log( "Testing mapUpdate" )
+export function mapUpdate( lat, lng, zoom = 15, popMsg = "Hello Maps" ) {
+    if( ! mapInstance ) throw new Error( "Mapa no inicializado..." );
+
+    mapInstance.setView( [ lat, lng ], zoom );
+
+    if( markerInstance ) {
+        markerInstance.setLatLng( [ lat, lng ] );
+    }
+    else {
+        markerInstance = L
+            .marker( [ lat, lng ] )
+            .addTo( mapInstance );
+    }
+
+    markerInstance
+        .bindPopup( popMsg )
+        .openPopup();
+
+    return markerInstance;
+
+    console.log( "Testing mapUpdate" );
 }

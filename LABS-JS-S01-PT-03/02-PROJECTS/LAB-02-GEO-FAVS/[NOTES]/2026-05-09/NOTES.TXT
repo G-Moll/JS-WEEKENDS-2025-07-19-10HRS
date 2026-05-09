@@ -1,0 +1,18 @@
+// ESTRUCTURA DEL FRONTEND
+📁 front
+├── 📁 css
+├── 📁 js
+│   ├── 📁 app.core
+│   │   ├── 📄 CameraCore.js
+│   │   └── 📄 MapCore.js
+│   │
+│   ├── 📁 camera
+│   │   └── 📄 CameraManager.js
+│   │
+│   ├── 📁 maps
+│   │   ├── 📄 geolocation.js
+│   │   └── 📄 geomap.js
+│   │
+│   └── 📄 app.js
+├── 📄 favicon.ico
+└── 📄 index.html
