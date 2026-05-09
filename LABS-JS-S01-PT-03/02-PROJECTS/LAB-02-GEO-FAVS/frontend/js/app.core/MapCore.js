@@ -1,12 +1,12 @@
-import { getCurrentPosition, formatLocationMessage } from '../maps/geolocation.js';
-import { mapInit, mapUpdate } from '../maps/map.js';
+import { Geolocation } from '../maps/Geolocation.js';
+import { Geomap } from '../maps/Geomap.js';
 
 class MapCore {
     constructor() {}
 
     static init() {
         // READ DOM OBJECTS
-        const map = mapInit( "map" );
+        const map = Geomap.mapInit( "map" );
         const locateBtn = document.getElementById( "locateBtn" );
         const statusText = document.getElementById( "statusText" );
 
@@ -18,10 +18,10 @@ class MapCore {
             locateBtn.disabled = true;
 
             try {
-                const position = await getCurrentPosition();
-                const { lat, lng, acc, txt } = formatLocationMessage( position );
+                const position = await Geolocation.getCurrentPosition();
+                const { lat, lng, acc, txt } = Geolocation.formatMessage( position );
                 statusText.textContent = txt;
-                mapUpdate( lat, lng );
+                Geomap.mapUpdate( lat, lng );
                 
                 // console.log( position );
             }

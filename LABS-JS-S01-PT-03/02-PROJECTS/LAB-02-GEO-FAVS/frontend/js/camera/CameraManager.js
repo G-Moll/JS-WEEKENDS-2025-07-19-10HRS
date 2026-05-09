@@ -5,6 +5,13 @@ class CameraManager {
         this.isActive = false;
     }
 
+    loadedMetadataHandler( e ) {
+        this.videoElement.play();
+        this.isActive = true;
+        console.log( "Camara corriendo...." );
+        console.log( e );
+    }
+
     async start() {
         try {
             if( ! navigator.mediaDevices || ! navigator.mediaDevices.getUserMedia ) throw new Error( "El dispositivo no soporta la cámara..." );
@@ -20,11 +27,7 @@ class CameraManager {
 
             this.stream = await navigator.mediaDevices.getUserMedia( constraints );
             this.videoElement.srcObject = this.stream;
-            this.videoElement.onloadedmetadata = () => {
-                this.videoElement.play();
-                this.isActive = true;
-                console.log( "Camara corriendo...." );
-            }
+            this.videoElement.addEventListener("loadedmetadata", this.loadedMetadataHandler );
             return true;
         }
         catch( e ) {
@@ -37,9 +40,9 @@ class CameraManager {
 
     stop() {}
 
-    describeError() {}
+    describeError( e ) {}
 
-    displayError() {}
+    displayError( message ) {}
 
 }
 
