@@ -2,9 +2,9 @@
 import { MapCore } from "./app.core/MapCore.js";
 import { CameraCore } from "./app.core/CameraCore.js";
 
-document.addEventListener( "DOMContentLoaded", dclHandler );
+document.addEventListener( "DOMContentLoaded", domContentLoadedHandler );
 
-function dclHandler( e ) {
+function domContentLoadedHandler( e ) {
     MapCore.init();
     CameraCore.init();
 }
