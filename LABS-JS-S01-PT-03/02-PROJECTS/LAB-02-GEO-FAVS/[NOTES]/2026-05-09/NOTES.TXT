@@ -1,6 +1,10 @@
-// ESTRUCTURA DEL FRONTEND
+································································
+ESTRUCTURA FINAL DEL FRONTEND
+················
 📁 front
 ├── 📁 css
+│   └── 📄 styles.css
+│
 ├── 📁 js
 │   ├── 📁 app.core
 │   │   ├── 📄 CameraCore.js
@@ -14,5 +18,6 @@
 │   │   └── 📄 geomap.js
 │   │
 │   └── 📄 app.js
+│
 ├── 📄 favicon.ico
 └── 📄 index.html

@@ -1,0 +1,84 @@
+································································
+NOTAS DEL FRONTEND
+················
+01) CONFIGURAR NGROK (Cuenta, Aplicación, Token, Tunnel)
+    
+    01.01 (Cuenta) - Registrase en ngrok.com
+        - Es necesario registrar una cuenta
+            - https://ngrok.com
+        - Es necesario obtener el token asignado a la cuenta
+            - Sección: Getting Started > Setup & Installation
+        - Es necesario obtener el dominio asignado a la cuenta
+            - Sección: Universal Gateway > Domains
+
+    01.02 - Buscar en el correo, el mensaje de validación de NGROK (puede tardar varios minutos)
+        - Es importante validar la cuenta de NGROK, pues después de ello ya se asigna un token a la cuenta de NGROK
+        - Ese token es importante porque se debe agregar a la computadora de desarrollo
+
+    01.03 (Aplicación) - Instalar NGROK a la computadora de desarrollo
+        - https://dashboard.ngrok.com/get-started/setup/windows
+        - La forma más sencilla es hacerlo desde Windows Store
+        - Checar que ngrok se haya instalado correctamente
+        $ where ngrok
+        $ which ngrok
+
+    01.04 (Token) - Agregar el token de la cuenta, a la computadora de desarrollo
+        - Inicialmente aparece como $AUTH_TOKEN, pero sólo es un placeholder
+        - Si ya se verificó el correo, aparecerá el token real
+
+        - Algo como esto, aparece si aún no se ha validado el correo de verificación
+        $ ngrok config add-authtoken $AUTH_TOKEN
+
+        - Algo como esto, aparece después de haber validado el correo de verificación
+        - Si aparece de esta forma, correr ese comando en alguna terminal de la computadora de desarrollo
+        $ ngrok config add-authtoken ABCdefGHIjklMNOpqrSTUvwxYZ0123456789
+
+    01.05 - Correr el proyecto desde Live-Server o alguna herramienta parecida
+        - Es necesario correr en un url local para recuperar el puerto
+        - Guardar el puerto que asigna Live Server (3000, 3700, 5500, etc)
+
+    01.06 (Tunnel) - Correr NGROK utilizando el puerto del proyecto (paso anterior)
+        - Sintaxis
+        $ ngrok http PORT_NUMBER
+        $ ngrok http NGROK_DOMAIN PORT_NUMBER
+
+        - Ejemplo
+        - PORT_NUMBER es el puerto es el que asigna Live Serve en VSC
+        - NGROK_DOMAIN es el dominio que se asigna a la cuenta de ngrok (Sección: Universal Gateway > Domains)
+        
+        - Esto siempre dará un dominio aleatorio, por ejemplo: abc-def-123-456-lmn.ngrok-free.dev, hij-klm-789-012-lmn.ngrok-free.dev, xyz-cba-321-765-zyx.ngrok-free.dev, etc
+        $ ngrok http 3000
+
+        - Esto siempre tomará el dominio asignado a la cuenta: some-random-domain-name.ngrok-free.dev
+        $ ngrok http --url=some-random-domain-name.ngrok-free.dev 3000
+    
+    01.07 - Desde algún otro dispositivo (Desktop, Tablet o Smartphone), acceder al dominio asignado a la cuenta
+        - Por medio de ese dominio, se puede acceder de forma pública al proyecto que Live Server está corriendo de forma local; en este ejemplo se usa: some-random-domain-name.ngrok-free.dev
+        - El dominio se puede ver desde:
+            - La consola de ngrok donde corre el proyecto con el comando "$ ngrok http NGROK_DOMAIN PORT_NUMBER"
+            - Se puede ver en la Sección: Universal Gateway > Domains, de la cuenta de ngrok.com
+
+
+································································
+ESTRUCTURA FINAL DEL FRONTEND
+················
+📁 front
+├── 📁 css
+│   └── 📄 styles.css
+│
+├── 📁 js
+│   ├── 📁 app.core
+│   │   ├── 📄 CameraCore.js
+│   │   └── 📄 MapCore.js
+│   │
+│   ├── 📁 camera
+│   │   └── 📄 CameraManager.js
+│   │
+│   ├── 📁 maps
+│   │   ├── 📄 Geolocation.js
+│   │   └── 📄 Geomap.js
+│   │
+│   └── 📄 app.js
+│
+├── 📄 favicon.ico
+└── 📄 index.html
