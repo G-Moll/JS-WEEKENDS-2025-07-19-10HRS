@@ -27,7 +27,7 @@ class CameraManager {
 
             this.stream = await navigator.mediaDevices.getUserMedia( constraints );
             this.videoElement.srcObject = this.stream;
-            this.videoElement.addEventListener("loadedmetadata", this.loadedMetadataHandler );
+            this.videoElement.addEventListener( "loadedmetadata", this.loadedMetadataHandler );
             return true;
         }
         catch( e ) {
@@ -38,11 +38,48 @@ class CameraManager {
         finally {}
     }
 
-    stop() {}
+    stop() {
+        if( this.stream ) {
+            this.stream.getTracks().forEach( track => {
+                track.stop();
+            });
+            this.stream = null;
+            this.isActive = false;
+            this.videoElement.srcObject = null;
+            console.log( "Cámara detenida..." )
+        }
+    }
 
-    describeError( e ) {}
+    describeError( error ) {
+        let message = "";
 
-    displayError( message ) {}
+        switch( error.name ) {
+            case "NotAllowedError":
+                message = "Permiso denegado. Por favor, permite el acceso a la cámara.";
+                break;
+            case "NotFoundError":
+                message = "No se encontró ninguna cámara en este dispositivo.";
+                break;
+            case "NotReadableError":
+                message = "La cámara está siendo utilizada por otra aplicación.";
+                break;
+            case "OverconstrainedError":
+                message = "No se pudo cumplir con los requisitos solicitados para la cámara.";
+                break;
+            default:
+                message = `Error al acceder a la cámara: ${ error.message }`;
+        }
+
+        this.displayError( message );
+    }
+
+    displayError( message ) {
+        const errorDiv = document.getElementById( "errorCam" );
+        if( errorDiv ) {
+            errorDiv.textContent = message;
+            errorDiv.style.display = "block";
+        }
+    }
 
 }
 
