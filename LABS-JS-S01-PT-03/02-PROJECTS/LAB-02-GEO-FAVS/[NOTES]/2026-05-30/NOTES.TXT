@@ -6,7 +6,7 @@ POSIBLE PROBLEMAS
 - Los archivos se pueden guardar en la base de datos, pero tienen algunos inconvenientes.
 
 Tablas independientes para:     DB      Content
-        - Notas: Texto          Ok      Buen lugar para comer
+        - Notas: Texto          Ok      "Buen lugar para comer"
         - Fotos: Archivo        Ok      Blob
         - Audios: Archivo       Ok      Blob
         - Videos: Archivo       Ok      Blob
@@ -21,22 +21,22 @@ Tablas independientes para:     DB      Content
 // =============================================
 PROPUESTA OPTIMIZADA
     - Crear una tabla con Relaciones Polimórficas que trate todo el contenido multimedia de la misma forma, por su estructura, pero diferenciando su tipo
-    - Nos ayudaresmos de una tabla nueva MediaTypes y de la tabla existente Locations
+    - Nos ayudaremos de una tabla nueva MediaTypes y de la tabla existente Locations
 
 Tabla LocationMedia para:   DB      Content
-    - Notas: Texto          Ok      Buen lugar para comer
-    - Fotos: Texto          Ok      http:///ref-a-la-foto
-    - Audios: Texto         Ok      http:///ref-a-la-audio
-    - Videos: Texto         Ok      http:///ref-a-la-video
+    - Notas: Texto          Ok      "Buen lugar para comer"
+    - Fotos: Texto          Ok      "http:///ref-a-la-foto"
+    - Audios: Texto         Ok      "http:///ref-a-la-audio"
+    - Videos: Texto         Ok      "http:///ref-a-la-video"
 
-Con esta configuración, todos los tipos media, en la DB se guardan como Texto, las notas ya lo son, Imagen, Audio y Video, sólo guardarán una referencia de su url de almacenamiento.
+Con esta configuración, todos los tipos media, en la DB se guardan como Texto, las notas ya lo son; Imagen, Audio y Video, sólo guardarán una referencia de su url de almacenamiento.
 
     Server
         media
             images
-                monumentoalarevolucion.jpg
+                http://sitiogratis.com/hacker28/monumentoalarevolucion.jpg
                 http://sitiogratis.com/hacker28/monumentoalarevolucion.jpg
             videos
-                monumentoalarevolucion.mpg
+                http://sitiogratis.com/hacker28/monumentoalarevolucion.mpg
             audios
-                monumentoalarevolucion.mp3
+                http://sitiogratis.com/hacker28/monumentoalarevolucion.mp3
