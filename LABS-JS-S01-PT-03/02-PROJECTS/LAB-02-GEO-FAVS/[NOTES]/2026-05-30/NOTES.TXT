@@ -34,9 +34,13 @@ Con esta configuración, todos los tipos media, en la DB se guardan como Texto, 
     Server
         media
             images
-                http://sitiogratis.com/hacker28/monumentoalarevolucion.jpg
-                http://sitiogratis.com/hacker28/monumentoalarevolucion.jpg
+                http://sitiogratis.com/hacker28/contenido-multimedia.jpg
+                http://sitiogratis.com/hacker28/contenido-multimedia.jpg
             videos
-                http://sitiogratis.com/hacker28/monumentoalarevolucion.mpg
+                http://sitiogratis.com/hacker28/contenido-multimedia.mp4
             audios
-                http://sitiogratis.com/hacker28/monumentoalarevolucion.mp3
+                http://sitiogratis.com/hacker28/contenido-multimedia.mp3
+
+// ============================================
+// Herramienta Bcrypt online
+https://bcrypt-generator.com/=
