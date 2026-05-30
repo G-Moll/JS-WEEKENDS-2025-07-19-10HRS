@@ -42,5 +42,12 @@ Con esta configuración, todos los tipos media, en la DB se guardan como Texto, 
                 http://sitiogratis.com/hacker28/contenido-multimedia.mp3
 
 // ============================================
-// Herramienta Bcrypt online
-https://bcrypt-generator.com/=
+// BCRYPT ONLINE
+Bcrypt Generator - Online Hash Generator & Checker
+https://bcrypt-generator.com
+
+CyberChef
+https://gchq.github.io/CyberChef/#recipe=Bcrypt(10)
+
+Recommended # of rounds for Bcrypt
+https://security.stackexchange.com/questions/17207/recommended-of-rounds-for-bcrypt/17238#17238
