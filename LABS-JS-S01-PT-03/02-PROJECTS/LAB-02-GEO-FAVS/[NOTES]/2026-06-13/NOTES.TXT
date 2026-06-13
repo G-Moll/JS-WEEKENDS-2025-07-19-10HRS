@@ -1,0 +1,14 @@
+Tomando como base los conceptos de las Notas del 2026-05-16, se creó el modelo físico de la DB GeoFavs.
+
+Tablas:
+    - Roles
+    - Users
+        - Roles ( FK )
+    - Locations
+        - Users ( FK )
+    - MediaTypes
+    - LocationMedia
+        - MediaTypes ( FK )
+        - Users ( FK )
+
+Se crearon también índices para optimizar las búsquedas.
