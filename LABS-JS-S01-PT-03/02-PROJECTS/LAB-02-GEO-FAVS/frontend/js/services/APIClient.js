@@ -1,4 +1,4 @@
-class ApiClient {
+class APIClient {
     constructor( baseUrl = "" ) {
         this.baseUrl = baseUrl;
         this.headers = {
@@ -94,4 +94,4 @@ class ApiClient {
     }
 }
 
-export default ApiClient;
+export default APIClient;
