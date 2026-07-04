@@ -1,0 +1,72 @@
+// BACKEND
+Configuración del archivo .env
+
+// Modificar a los valores que requiere el proyecto
+PORT=8282
+
+MYDB_HOST=localhost
+MYDB_PORT=3306
+MYDB_USER=USER_NAME
+MYDB_PASS=PASSWORD
+MYDB_NAME=DATABASE
+
+// Crear proyecto node
+// Dentro de la carpeta del proyecto backend
+$ npm init --y
+
+
+// Instalar los paquetes
+$ npm i cors
+$ npm i dotenv
+$ npm i drizzle-orm
+$ npm i express
+$ npm i mysql2
+$ npm i nodemon -D
+
+// En el archivo package.json, crear el script:
+"mysql:dev": "nodemon server.js",
+
+
+📁 backend
+├── 📁 src
+│   ├── 📁 config
+│   │   └── 📄 database.js
+│   │
+│   ├── 📁 controllers
+│   │   └── 📄 UserController.js
+│   │
+│   ├── 📁 models
+│   │   ├── 📄 RoleModel.js
+│   │   └── 📄 UserModel.js
+│   │
+│   ├── 📁 routers
+│   │   ├── 📄 apiRouter.js
+│   │   └── 📄 usersRouter.js
+│   │
+│   ├── 📄 .env
+│   ├── 📄 package.json
+│   └── 📄 server.js
+│
+├── 📄 favicon.ico
+└── 📄 index.html
+
+📁 front
+├── 📁 css
+│   └── 📄 styles.css
+│
+├── 📁 js
+│   ├── 📁 app.core
+│   │   ├── 📄 CameraCore.js
+│   │   └── 📄 MapCore.js
+│   │
+│   ├── 📁 camera
+│   │   └── 📄 CameraManager.js
+│   │
+│   ├── 📁 maps
+│   │   ├── 📄 Geolocation.js
+│   │   └── 📄 Geomap.js
+│   │
+│   └── 📄 app.js
+│
+├── 📄 favicon.ico
+└── 📄 index.html
