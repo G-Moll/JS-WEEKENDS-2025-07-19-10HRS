@@ -112,6 +112,10 @@ const UserController = {
                 error: e.message
             } );
         }
+        finally {
+            console.log( "BODY: ", req.body );
+            console.log( "BODY: ", req );
+        }
     },
 
     async update( req, res ) {

@@ -84,15 +84,16 @@ async function startServer() {
             console.log( "============================================" );
             console.log( "🚀 CRUD API - CoffeeArt" );
             console.log( "============================================" );
-            console.log( `📍 Servidor: http://localhost:${ PORT }` );
-            console.log( `❤️  Health:  http://localhost:${ PORT }/api/health` );
+            console.log( `📍 Servidor:           http://localhost:${ PORT }` );
+            console.log( `❤️  Health:           http://localhost:${ PORT }/api/health` );
             console.log( "" );
-            console.log( "📦 Endpoints disponibles:" );
-            console.log( `   Roles:    http://localhost:${ PORT }/api/roles` );
-            console.log( `   Users:    http://localhost:${ PORT }/api/users` );
-            console.log( `   Posts:    http://localhost:${ PORT }/api/posts` );
-            console.log( `   Products: http://localhost:${ PORT }/api/products` );
-            console.log( `   Sales:    http://localhost:${ PORT }/api/sales` );
+            console.log( "📦 ENDPOINTS DISPONIBLES:" );
+            console.log( `      Users:          http://localhost:${ PORT }/api/users` );
+            console.log( "🛑 ENDPOINTS PENDIENTES:" );
+            console.log( `      Roles:          http://localhost:${ PORT }/api/roles` );
+            console.log( `      Locations:      http://localhost:${ PORT }/api/locations` );
+            console.log( `      Location Media: http://localhost:${ PORT }/api/locationmedia` );
+            console.log( `      Media Types:    http://localhost:${ PORT }/api/mediatypes` );
             console.log( "============================================" );
         } );
     }

@@ -1,5 +1,5 @@
-import { Geolocation } from '../maps/Geolocation.js';
-import { Geomap } from '../maps/Geomap.js';
+import { Geolocation } from "../maps/Geolocation.js";
+import { Geomap } from "../maps/Geomap.js";
 
 class MapCore {
     constructor() {}
@@ -38,7 +38,7 @@ class MapCore {
                 locateBtn.disabled = false;
             }
         }
-        console.log( "MapCore Initialized..!" );
+        // console.log( "MapCore Initialized..!" );
     }
 }
 
