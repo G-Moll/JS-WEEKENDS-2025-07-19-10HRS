@@ -8,9 +8,28 @@ const { apiRouter } = require( "./src/routers/apiRouter" );
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-app.use( cors() );
+app.use( cors( {
+    origin: ["*", "http://localhost:3000" ],
+    methods: [ "GET", "POST", "PUT", "DELETE", "OPTIONS" ],
+    allowedHeaders: [ "Content-Type", "Authorization" ],
+    credentials: true
+} ) );
 app.use( express.json() );
 app.use( express.urlencoded( { extended: true } ) );
+
+// ================================================================
+
+app.use((req, res, next) => {
+    console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
+    console.log(`📨 ${req.method} ${req.url}`);
+    console.log('📋 Headers:', JSON.stringify(req.headers, null, 2));
+    console.log('📦 Body:', req.body);
+    console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
+    next();
+});
+
+// ================================================================
+
 
 app.get( "/api/health", async ( req, res ) => {
     let dbStatus = "unknown";
@@ -60,12 +79,12 @@ app.use( ( error, req, res, next ) => {
 
 async function startServer() {
     try {
-        console.log("🚀 Iniciando servidor...");
-        console.log("📡 Conectando a base de datos...");
-        
+        console.log( "🚀 Iniciando servidor..." );
+        console.log( "📡 Conectando a base de datos..." );
+
         await initializeDatabase();
-        
-        console.log("✅ Base de datos conectada correctamente");
+
+        console.log( "✅ Base de datos conectada correctamente" );
         
         try {
             const db = getDatabase();

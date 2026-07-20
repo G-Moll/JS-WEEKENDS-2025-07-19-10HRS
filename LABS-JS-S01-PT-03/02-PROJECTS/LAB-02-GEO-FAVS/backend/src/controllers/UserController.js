@@ -66,6 +66,8 @@ const UserController = {
     },
 
     async create( req, res ) {
+        console.log( "REQ.BODY", req.body );
+
         try {
             const db = getDatabase();
             const { nickname, name, email, password, role_id } = req.body;
@@ -114,7 +116,7 @@ const UserController = {
         }
         finally {
             console.log( "BODY: ", req.body );
-            console.log( "BODY: ", req );
+            // console.log( "BODY: ", req );
         }
     },
 

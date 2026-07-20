@@ -35,8 +35,8 @@ async function initializeDatabase() {
 
         const testConnection = await pool.getConnection();
         console.log( "✅ Pool de conexiones creado" );
-        
-        const [result] = await testConnection.query( "SELECT 1 as test, DATABASE() as current_db, NOW() as server_time" );
+
+        const [ result ] = await testConnection.query( "SELECT 1 as test, DATABASE() as current_db, NOW() as server_time" );
         console.log( "✅ Consulta de prueba exitosa:" );
         console.log( `   Base de datos actual: ${ result[ 0 ].current_db }` );
         console.log( `   Hora del servidor: ${ result[ 0 ].server_time }` );
