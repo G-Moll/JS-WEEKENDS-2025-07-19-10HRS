@@ -7,8 +7,6 @@ class LocationForm {
         // LocationForm.reset();
     }
 
-
-
     static getFormData( userData ) {
     }
 
