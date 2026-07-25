@@ -2,12 +2,46 @@ class UserForm {
 
     constructor() {}
 
+    static init() {
+        const userForm      = document.getElementById( "userForm" );
+        const roleIdInput   = document.getElementById( "roleId" );
+        const nicknameInput = document.getElementById( "nickname" );
+        const nameInput     = document.getElementById( "name" );
+        const emailInput    = document.getElementById( "email" );
+        const passwordInput = document.getElementById( "password" );
+        const userSubmit    = document.getElementById( "userSubmit" );
+
+        userSubmit.addEventListener( "click", ( e => {
+            e.preventDefault();
+
+            const roleIdValue     = roleIdInput.value;
+            const nicknameValue   = nicknameInput.value;
+            const nameValue       = nameInput.value;
+            const emailValue      = emailInput.value;
+            const passwordValue   = passwordInput.value;
+
+            const userPayload = UserForm.getFormData( [
+                roleIdValue,
+                nicknameValue,
+                nameValue,
+                emailValue,
+                passwordValue ] );
+
+            // console.log( "USERPAYLOAD", userPayload );
+
+            UserForm.sendFormData( e, userPayload );
+        } ) );
+
+        console.log( "Starting UserForm..." );
+
+        // userForm.reset();
+    }
+
+
+
     static getFormData( userData ) {
 
         const [ roleId, nickname, name, email, password ] = userData;
-
-        // console.log( userData );
-
         const userPayload = {
             role_id: roleId,
             nickname: nickname,
@@ -15,8 +49,6 @@ class UserForm {
             email: email,
             password: password
         };
-
-        // console.log( userPayload );
 
         return userPayload;
     }
@@ -51,18 +83,18 @@ class UserForm {
     }
 
 
-    static async sendFormDataBis(e, payloadData) {
+    static async sendFormDataBis( e, payloadData ) {
         e.preventDefault();
         
-        console.log("📦 Payload a enviar:", payloadData);
+        console.log( "📦 Payload a enviar:", payloadData );
         
         try {
-            const response = await fetch("http://localhost:8282/api/users", {
+            const response = await fetch( "http://localhost:8282/api/users", {
                 method: "post",
                 headers: {
                     "Content-Type": "application/json",
                 },
-                body: JSON.stringify(payloadData)
+                body: JSON.stringify( payloadData )
             });
             
             const text = await response.text();
@@ -72,8 +104,8 @@ class UserForm {
                 const data = JSON.parse( text );
                 // console.log( "📨 Datos parseados:", data );
             }
-            catch(parseError) {
-                // console.error( "❌ No es JSON válido:", parseError );
+            catch( e ) {
+                // console.error( "❌ No es JSON válido:",  e  );
             }
             
         }
