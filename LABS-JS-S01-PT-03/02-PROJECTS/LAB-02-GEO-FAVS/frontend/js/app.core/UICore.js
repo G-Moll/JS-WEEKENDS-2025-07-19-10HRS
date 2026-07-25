@@ -4,22 +4,31 @@ class UICore {
     constructor() {}
 
     static init() {
-        const userForm   = document.getElementById( "userForm" );
-        const roleId     = document.getElementById( "roleId" ).value;
-        const nickname   = document.getElementById( "nickname" ).value;
-        const name       = document.getElementById( "name" ).value;
-        const email      = document.getElementById( "email" ).value;
-        const password   = document.getElementById( "password" ).value;
-        const userSubmit = document.getElementById( "userSubmit" );
-        // console.log( userForm, roleId, nickname, name, email, password, userSubmit );
-
-        // console.log( userSubmit );
+        const userForm      = document.getElementById( "userForm" );
+        const roleIdInput   = document.getElementById( "roleId" );
+        const nicknameInput = document.getElementById( "nickname" );
+        const nameInput     = document.getElementById( "name" );
+        const emailInput    = document.getElementById( "email" );
+        const passwordInput = document.getElementById( "password" );
+        const userSubmit    = document.getElementById( "userSubmit" );
 
         userSubmit.addEventListener( "click", ( e => {
             e.preventDefault();
-            const userPayload = UserForm.getFormData( [ roleId, nickname, name, email, password ] );
 
-            console.log( "0000", userPayload );
+            const roleIdValue     = roleIdInput.value;
+            const nicknameValue   = nicknameInput.value;
+            const nameValue       = nameInput.value;
+            const emailValue      = emailInput.value;
+            const passwordValue   = passwordInput.value;
+
+            const userPayload = UserForm.getFormData( [
+                roleIdValue,
+                nicknameValue,
+                nameValue,
+                emailValue,
+                passwordValue ] );
+
+            // console.log( "USERPAYLOAD", userPayload );
 
             UserForm.sendFormData( e, userPayload );
         } ) );

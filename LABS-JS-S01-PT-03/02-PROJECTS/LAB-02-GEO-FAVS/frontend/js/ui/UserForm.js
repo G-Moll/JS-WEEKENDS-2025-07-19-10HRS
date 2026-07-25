@@ -6,7 +6,7 @@ class UserForm {
 
         const [ roleId, nickname, name, email, password ] = userData;
 
-        console.log( userData );
+        // console.log( userData );
 
         const userPayload = {
             role_id: roleId,
@@ -16,22 +16,16 @@ class UserForm {
             password: password
         };
 
-        console.log( userPayload );
+        // console.log( userPayload );
 
         return userPayload;
     }
 
     static async sendFormData( e, payloadData ) {
         e.preventDefault();
-        console.log( "PAYLOADDATA", payloadData );
-        // console.log( e );
         
         try {
-            // console.log( payloadData );
             const jsonData = JSON.stringify( payloadData );
-            console.log( "Payload JSON:", jsonData );
-            // console.log( "Payload DATA:", payloadData );
-            
             const endpointUrl = "http://localhost:8282/api/users";
             const response = await fetch( endpointUrl, {
                 method: "POST",
@@ -43,9 +37,7 @@ class UserForm {
             } );
             
             if( ! response.ok ) {
-                // throw new Error( `Error HTTP: ${ response.status } - ${ response.statusText }` );
-                console.log( response.status );
-                console.log( response.statusText );
+                throw new Error( `Error HTTP: ${ response.status } - ${ response.statusText }` );
             }
 
             const data = await response.json();
@@ -73,20 +65,15 @@ class UserForm {
                 body: JSON.stringify(payloadData)
             });
             
-            console.log("📨 Status:", response.status);
-            console.log("📨 StatusText:", response.statusText);
-            
-            // Lee el texto de la respuesta primero
             const text = await response.text();
-            console.log("📨 Respuesta cruda:", text);
+            // console.log( "📨 Respuesta cruda:", text) ;
             
-            // Si la respuesta no es JSON, mostrar error
             try {
-                const data = JSON.parse(text);
-                console.log("📨 Datos parseados:", data);
+                const data = JSON.parse( text );
+                // console.log( "📨 Datos parseados:", data );
             }
             catch(parseError) {
-                console.error("❌ No es JSON válido:", parseError);
+                // console.error( "❌ No es JSON válido:", parseError );
             }
             
         }
