@@ -81,39 +81,6 @@ class UserForm {
             console.log( `Error: ${ e.message }` );
         }
     }
-
-
-    static async sendFormDataBis( e, payloadData ) {
-        e.preventDefault();
-        
-        console.log( "📦 Payload a enviar:", payloadData );
-        
-        try {
-            const response = await fetch( "http://localhost:8282/api/users", {
-                method: "post",
-                headers: {
-                    "Content-Type": "application/json",
-                },
-                body: JSON.stringify( payloadData )
-            });
-            
-            const text = await response.text();
-            // console.log( "📨 Respuesta cruda:", text) ;
-            
-            try {
-                const data = JSON.parse( text );
-                // console.log( "📨 Datos parseados:", data );
-            }
-            catch( e ) {
-                // console.error( "❌ No es JSON válido:",  e  );
-            }
-            
-        }
-        catch(e) {
-            console.error("❌ Error de red:", e);
-        }
-    }
-
 }
 
 export { UserForm };
