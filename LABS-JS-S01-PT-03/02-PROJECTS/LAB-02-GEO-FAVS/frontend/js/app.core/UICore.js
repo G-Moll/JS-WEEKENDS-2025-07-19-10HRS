@@ -1,5 +1,5 @@
-import { UserForm } from "../ui/UserForm.js";
-import { LocationForm } from "../ui/LocationForm.js"
+import { UserForm } from "../ui/forms/UserForm.js";
+import { LocationForm } from "../ui/forms/LocationForm.js"
 
 class UICore {
     constructor() {}

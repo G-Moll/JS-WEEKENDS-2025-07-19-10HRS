@@ -1,25 +1,25 @@
 const { mysqlTable, int, varchar, timestamp } = require( "drizzle-orm/mysql-core" );
 const { relations } = require( "drizzle-orm" );
-const { Roles } = require( "./RoleModel" );
+const { Users } = require( "./UserModel" );
 
-const Users = mysqlTable( "Users", {
+const Locations = mysqlTable( "Locations", {
     id: int( "id", { unsigned: true }  ).primaryKey().autoincrement(),
-    role_id: int( "role_id", { unsigned: true } ),
+    user_id: int( "user_id", { unsigned: true } ),
     nickname: varchar( "nickname", { length: 100 } ).notNull().unique(),
     name: varchar( "name", { length: 100 } ).notNull(),
     email: varchar( "email", { length: 255 } ).notNull().unique(),
-    password: varchar( "password", { length: 255 } ).notNull(),
+    password: varchar("password", { length: 255 }).notNull(),
 
     created_at: timestamp( "created_at" ).defaultNow().notNull(),
     updated_at: timestamp( "updated_at" ).defaultNow().onUpdateNow().notNull()
 } );
 
-const UsersRelations = relations( Users, ( { one, many } ) => ( {
-    role: one( Roles, {
-        fields: [ Users.role_id ],
-        references: [ Roles.id ]
+const LocationsRelations = relations( Locations, ( { one, many } ) => ( {
+    user: one( Users, {
+        fields: [ Locations.user_id ],
+        references: [ Users.id ]
     } ),
-    locations: many( require( "./LocationModel" ).Locations )
+    locationMedia: many( require( "./LocationMediaModel" ).LocationMedia )
 } ) );
 
-module.exports = { Users, UsersRelations };
+module.exports = { Locations, LocationsRelations };
